@@ -1,0 +1,22 @@
+\chapter{CrewAI as a Writing Organization}
+CrewAI expresses a useful production pattern: complex intellectual work can be divided among agents with specialized roles. In this project the crew contains a planner, researcher, writer, editor, LaTeX engineer, and QA reviewer. The purpose is not to pretend that agents are people. The purpose is to force the workflow to expose responsibilities, expected outputs, and quality gates.
+
+\section{Roles and Tasks}
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+Role & Main responsibility & Output \\
+\midrule
+Planner & Decompose assignment & Outline and checklist \\
+Researcher & Gather claims and references & Evidence notes \\
+Writer & Draft chapters & Markdown manuscript \\
+Editor & Improve clarity and caution & Reviewed manuscript \\
+LaTeX Engineer & Typeset document & TeX files and figures \\
+QA Reviewer & Validate requirements & Final checklist \\
+\bottomrule
+\end{tabular}
+\caption{CrewAI-style agent team for the assignment.}
+\end{table}
+
+The most important design choice is the context chain. The writer should not invent from nothing; it should consume the research output. The editor should not rewrite the assignment; it should improve the writer's artifact. The LaTeX engineer should not decide the argument; it should typeset an approved manuscript.

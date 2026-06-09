@@ -1,0 +1,4 @@
+\chapter{QA Appendix}
+The final review checks the assignment at the artifact level. The repository includes a root README, PRD, PLAN, TODO, source code, LaTeX project, figures, bibliography, and generated PDF. The PDF includes a cover page, table of contents, headers and footers, chapters, a Python-generated graph, an architecture image, a table, a mathematical formula, a Hebrew/English BiDi section, and bibliography entries.
+
+This appendix also documents the practical build constraint discovered on the development machine: no local TeX compiler was available on the PATH. For that reason the repository contains canonical LuaLaTeX source plus a generated fallback PDF artifact. On a machine with MiKTeX or TeX Live installed, `python scripts/build.py` compiles the LaTeX source directly.

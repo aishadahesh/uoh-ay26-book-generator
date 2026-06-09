@@ -1,0 +1,7 @@
+\chapter{Governance, Security, and Human Gates}
+The more authority an agent receives, the more important the surrounding control plane becomes. A model that can only draft text needs lightweight review. A model that can browse, write files, call APIs, or execute code needs sandboxing, audit logs, rate limits, and explicit escalation paths. This is why modern agent architecture borrows ideas from software engineering, security engineering, and operations.
+
+Security risks include prompt injection, tool misuse, memory poisoning, data leakage, and silent policy drift. The answer is not fear of agents, but layered control: narrow tool scopes, typed interfaces, review checkpoints, and repeatable evaluations \cite{owasp2025agents}. Human-in-the-loop review should appear at meaningful gates: approving an outline, accepting a source set, reviewing claims, and validating the final PDF.
+
+\section{Conclusion}
+The strongest submission is not only a PDF. It is a system that can explain how the PDF was produced. By combining a CrewAI-style team, Markdown review, LaTeX publication, generated figures, bibliography, and QA notes, this project turns the assignment into a reusable production pattern.
