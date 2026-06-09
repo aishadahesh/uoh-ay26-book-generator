@@ -18,9 +18,9 @@ The canonical generated PDF is:
 
 `output/agentic_ai_production_2026.pdf`
 
-Topic-specific copies may also appear in `output/`, for example `output/AI_Agents_in_Healthcare.pdf`, when a custom article topic is generated.
+Topic-specific copies may also appear in `output/`, for example `output/AI_Agents_for_Early_Detection_of_Mental_Health_Crises_Using_Multimodal_Data.pdf`, when a custom article topic is generated.
 
-The delivered article is a research-style technical paper with a centered title page, abstract on page 2, continuous article body, professional headers and footers, figures, a graph, a table, a formula, real Hebrew/English BiDi text, and numeric references. The assignment target is approximately 15 pages; the latest custom-topic healthcare build is 17 pages.
+The delivered article is a research-style technical paper with a centered title page, abstract on page 2, continuous article body, professional headers and footers, figures, a graph, a table, a formula, real Hebrew/English BiDi text, and numeric references. The assignment target is approximately 15 pages; the latest custom-topic mental-health-crisis build is 15 pages.
 
 ## Repository Structure
 

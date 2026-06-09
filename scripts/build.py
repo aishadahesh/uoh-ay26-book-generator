@@ -49,7 +49,7 @@ def compile_with_engine(engine: str) -> int:
         code = run(command)
         if code != 0:
             return code
-    if shutil.which("biber"):
+    if shutil.which("biber") and (LATEX.parent / "main.bcf").exists():
         run(["biber", "main"])
         code = run(command)
         if code != 0:

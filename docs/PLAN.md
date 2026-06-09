@@ -81,7 +81,7 @@ The build script uses direct `lualatex` or `xelatex`. This avoids the MiKTeX iss
 - Real CrewAI imports compile successfully.
 - `scripts/generate_online.py` topic selection works from command-line arguments and interactive terminals.
 - Every submitted `.py` file is below 150 lines.
-- The generated PDF is approximately 15 pages; the latest custom-topic healthcare build is 17 pages, which is acceptable for a longer generated topic.
+- The generated PDF is approximately 15 pages; the latest custom-topic mental-health-crisis build is 15 pages.
 - The article body avoids repeated filler paragraphs.
 - Hebrew text is right-to-left and remains actual extractable PDF text.
 - Numeric references appear clearly in the bibliography.
