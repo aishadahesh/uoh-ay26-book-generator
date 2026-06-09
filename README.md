@@ -26,31 +26,70 @@ The delivered article is a research-style technical paper with a centered title 
 
 ```text
 uoh-ay26-book-generator/
-|-- README.md
-|-- pyproject.toml
-|-- requirements.txt
+|-- README.md                         # Main reviewer guide, run instructions, output summary
+|-- pyproject.toml                    # Python package metadata, pytest config, src layout
+|-- requirements.txt                  # Runtime dependencies for CrewAI, Gemini/OpenAI, dotenv, tests
+|-- .env.example                      # Safe API-key template; copy to .env locally
 |-- docs/
-|   |-- PRD.md
-|   |-- PLAN.md
-|   `-- TODO.md
-|-- latex/
-|   |-- main.tex
-|   |-- main_template.tex
-|   |-- references.bib
-|   |-- assets/
-|   `-- chapters/
-|       `-- online_article.tex
-|-- output/
-|   `-- agentic_ai_production_2026.pdf
+|   |-- PRD.md                        # Product goals, functional requirements, acceptance criteria
+|   |-- PLAN.md                       # Architecture, workflow, quality gates, LaTeX strategy
+|   `-- TODO.md                       # 900-task professional implementation backlog
+|-- src/book_generator/
+|   |-- crewai_agents.py              # Real CrewAI Agent definitions
+|   |-- crewai_tasks.py               # CrewAI Task chain for planning, research, writing, LaTeX, QA
+|   |-- crewai_pipeline.py            # Sequential Crew runner with provider fallback handling
+|   |-- crewai_llm.py                 # Gemini/OpenAI LLM configuration for CrewAI
+|   |-- latex_sanitizer.py            # Generated-LaTeX cleanup before compilation
+|   |-- pipeline.py                   # Deterministic support pipeline used by tests/reference flow
+|   |-- models.py                     # Lightweight dataclasses for local manuscript modeling
+|   |-- config.py                     # Shared project paths and metadata
+|   |-- rendering.py                  # Markdown rendering helper
+|   `-- cli.py                        # Local package CLI entry point
 |-- scripts/
-|   |-- build.py
-|   |-- generate_online.py
-|   `-- setup_env.ps1
-|-- src/
-|   `-- book_generator/
+|   |-- setup_env.ps1                 # Creates .venv-crewai with Python 3.12 dependencies
+|   |-- generate_online.py            # Main online CrewAI generation command with topic prompt
+|   `-- build.py                      # Direct LuaLaTeX/XeLaTeX PDF builder, no Perl/latexmk dependency
+|-- latex/
+|   |-- main.tex                      # Current generated publication entry point
+|   |-- main_template.tex             # Reusable LaTeX shell used by generate_online.py
+|   |-- references.bib                # Reference database retained with the LaTeX project
+|   |-- assets/                       # Generated diagrams/figures used by the paper
+|   `-- chapters/
+|       `-- online_article.tex        # Latest CrewAI-generated article body after sanitization
+|-- output/
+|   |-- agentic_ai_production_2026.pdf
+|   |-- AI_Agents_for_Early_Detection_of_Mental_Health_Crises_Using_Multimodal_Data.pdf
+|   |-- AI_Agents_in_Healthcare.pdf
+|   `-- imgs/
+|       `-- terminal-output.png       # Example terminal run screenshot for documentation
 |-- tests/
-`-- ref/
+|   `-- test_pipeline.py              # Smoke test for the modular support pipeline
+`-- ref/                              # Local course/reference material, ignored by git
 ```
+
+## Implementation Details
+
+The implemented workflow is code-driven and online. `scripts/generate_online.py` loads `.env`, asks for a topic when one is not supplied, constructs a real CrewAI crew, runs the sequential agent workflow, writes the generated article body into the LaTeX project, sanitizes generated LaTeX, compiles the document, and copies the finished PDF into `output/`.
+
+The CrewAI implementation is split by responsibility. `crewai_agents.py` defines the roles, `crewai_tasks.py` defines the task sequence, `crewai_llm.py` configures Gemini/OpenAI models, and `crewai_pipeline.py` executes the crew with fallback model handling. This keeps the architecture modular and keeps every Python file below the 150-line assignment limit.
+
+The LaTeX layer is also separated from the generator. `latex/main_template.tex` owns document style, title page, abstract page, headers, spacing, Hebrew support, figures, and numeric references. The online agent writes only the article body into `latex/chapters/online_article.tex`, which prevents generated content from replacing the publication shell.
+
+`latex_sanitizer.py` handles common LLM output problems before build: accidental `\documentclass` or `\usepackage` preambles, generated `\begin{document}` wrappers, nested bibliographies, markdown code fences, markdown links, unbalanced lists, unsafe ampersands, and corrupted mojibake blocks. This was necessary because online models sometimes return a full LaTeX document even when the expected output is only a body section.
+
+The build path intentionally avoids `latexmk` because MiKTeX can have `latexmk` installed without Perl. `scripts/build.py` directly finds and runs `lualatex` or `xelatex`, performs multiple passes, and only invokes `biber` when a `.bcf` file exists.
+
+## Results
+
+The latest successful generated topic was:
+
+**AI Agents for Early Detection of Mental Health Crises Using Multimodal Data**
+
+The latest build produced a 15-page PDF with a centered title page, abstract on page 2, dense article body, figures, table, formula, numeric references, and live Hebrew/English BiDi text. The canonical output is `output/agentic_ai_production_2026.pdf`, and the topic-specific copy is `output/AI_Agents_for_Early_Detection_of_Mental_Health_Crises_Using_Multimodal_Data.pdf`.
+
+Example terminal run:
+
+![Terminal output example](output/imgs/terminal-output.png)
 
 ## CrewAI Architecture
 
