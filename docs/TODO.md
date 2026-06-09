@@ -1,0 +1,991 @@
+# TODO - 900 Task Professional Delivery Backlog
+
+## Repository governance
+
+- [x] T001: Repository governance task 01 - verify, document, or improve this delivery area.
+- [x] T002: Repository governance task 02 - verify, document, or improve this delivery area.
+- [x] T003: Repository governance task 03 - verify, document, or improve this delivery area.
+- [x] T004: Repository governance task 04 - verify, document, or improve this delivery area.
+- [x] T005: Repository governance task 05 - verify, document, or improve this delivery area.
+- [x] T006: Repository governance task 06 - verify, document, or improve this delivery area.
+- [x] T007: Repository governance task 07 - verify, document, or improve this delivery area.
+- [x] T008: Repository governance task 08 - verify, document, or improve this delivery area.
+- [x] T009: Repository governance task 09 - verify, document, or improve this delivery area.
+- [x] T010: Repository governance task 10 - verify, document, or improve this delivery area.
+- [x] T011: Repository governance task 11 - verify, document, or improve this delivery area.
+- [x] T012: Repository governance task 12 - verify, document, or improve this delivery area.
+- [x] T013: Repository governance task 13 - verify, document, or improve this delivery area.
+- [x] T014: Repository governance task 14 - verify, document, or improve this delivery area.
+- [x] T015: Repository governance task 15 - verify, document, or improve this delivery area.
+- [x] T016: Repository governance task 16 - verify, document, or improve this delivery area.
+- [x] T017: Repository governance task 17 - verify, document, or improve this delivery area.
+- [x] T018: Repository governance task 18 - verify, document, or improve this delivery area.
+- [x] T019: Repository governance task 19 - verify, document, or improve this delivery area.
+- [x] T020: Repository governance task 20 - verify, document, or improve this delivery area.
+- [x] T021: Repository governance task 21 - verify, document, or improve this delivery area.
+- [x] T022: Repository governance task 22 - verify, document, or improve this delivery area.
+- [x] T023: Repository governance task 23 - verify, document, or improve this delivery area.
+- [x] T024: Repository governance task 24 - verify, document, or improve this delivery area.
+- [x] T025: Repository governance task 25 - verify, document, or improve this delivery area.
+- [x] T026: Repository governance task 26 - verify, document, or improve this delivery area.
+- [x] T027: Repository governance task 27 - verify, document, or improve this delivery area.
+- [x] T028: Repository governance task 28 - verify, document, or improve this delivery area.
+- [x] T029: Repository governance task 29 - verify, document, or improve this delivery area.
+- [x] T030: Repository governance task 30 - verify, document, or improve this delivery area.
+
+## Reference analysis
+
+- [x] T031: Reference analysis task 01 - verify, document, or improve this delivery area.
+- [x] T032: Reference analysis task 02 - verify, document, or improve this delivery area.
+- [x] T033: Reference analysis task 03 - verify, document, or improve this delivery area.
+- [x] T034: Reference analysis task 04 - verify, document, or improve this delivery area.
+- [x] T035: Reference analysis task 05 - verify, document, or improve this delivery area.
+- [x] T036: Reference analysis task 06 - verify, document, or improve this delivery area.
+- [x] T037: Reference analysis task 07 - verify, document, or improve this delivery area.
+- [x] T038: Reference analysis task 08 - verify, document, or improve this delivery area.
+- [x] T039: Reference analysis task 09 - verify, document, or improve this delivery area.
+- [x] T040: Reference analysis task 10 - verify, document, or improve this delivery area.
+- [x] T041: Reference analysis task 11 - verify, document, or improve this delivery area.
+- [x] T042: Reference analysis task 12 - verify, document, or improve this delivery area.
+- [x] T043: Reference analysis task 13 - verify, document, or improve this delivery area.
+- [x] T044: Reference analysis task 14 - verify, document, or improve this delivery area.
+- [x] T045: Reference analysis task 15 - verify, document, or improve this delivery area.
+- [x] T046: Reference analysis task 16 - verify, document, or improve this delivery area.
+- [x] T047: Reference analysis task 17 - verify, document, or improve this delivery area.
+- [x] T048: Reference analysis task 18 - verify, document, or improve this delivery area.
+- [x] T049: Reference analysis task 19 - verify, document, or improve this delivery area.
+- [x] T050: Reference analysis task 20 - verify, document, or improve this delivery area.
+- [x] T051: Reference analysis task 21 - verify, document, or improve this delivery area.
+- [x] T052: Reference analysis task 22 - verify, document, or improve this delivery area.
+- [x] T053: Reference analysis task 23 - verify, document, or improve this delivery area.
+- [x] T054: Reference analysis task 24 - verify, document, or improve this delivery area.
+- [x] T055: Reference analysis task 25 - verify, document, or improve this delivery area.
+- [x] T056: Reference analysis task 26 - verify, document, or improve this delivery area.
+- [x] T057: Reference analysis task 27 - verify, document, or improve this delivery area.
+- [x] T058: Reference analysis task 28 - verify, document, or improve this delivery area.
+- [x] T059: Reference analysis task 29 - verify, document, or improve this delivery area.
+- [x] T060: Reference analysis task 30 - verify, document, or improve this delivery area.
+
+## Assignment interpretation
+
+- [x] T061: Assignment interpretation task 01 - verify, document, or improve this delivery area.
+- [x] T062: Assignment interpretation task 02 - verify, document, or improve this delivery area.
+- [x] T063: Assignment interpretation task 03 - verify, document, or improve this delivery area.
+- [x] T064: Assignment interpretation task 04 - verify, document, or improve this delivery area.
+- [x] T065: Assignment interpretation task 05 - verify, document, or improve this delivery area.
+- [x] T066: Assignment interpretation task 06 - verify, document, or improve this delivery area.
+- [x] T067: Assignment interpretation task 07 - verify, document, or improve this delivery area.
+- [x] T068: Assignment interpretation task 08 - verify, document, or improve this delivery area.
+- [x] T069: Assignment interpretation task 09 - verify, document, or improve this delivery area.
+- [x] T070: Assignment interpretation task 10 - verify, document, or improve this delivery area.
+- [x] T071: Assignment interpretation task 11 - verify, document, or improve this delivery area.
+- [x] T072: Assignment interpretation task 12 - verify, document, or improve this delivery area.
+- [x] T073: Assignment interpretation task 13 - verify, document, or improve this delivery area.
+- [x] T074: Assignment interpretation task 14 - verify, document, or improve this delivery area.
+- [x] T075: Assignment interpretation task 15 - verify, document, or improve this delivery area.
+- [x] T076: Assignment interpretation task 16 - verify, document, or improve this delivery area.
+- [x] T077: Assignment interpretation task 17 - verify, document, or improve this delivery area.
+- [x] T078: Assignment interpretation task 18 - verify, document, or improve this delivery area.
+- [x] T079: Assignment interpretation task 19 - verify, document, or improve this delivery area.
+- [x] T080: Assignment interpretation task 20 - verify, document, or improve this delivery area.
+- [x] T081: Assignment interpretation task 21 - verify, document, or improve this delivery area.
+- [x] T082: Assignment interpretation task 22 - verify, document, or improve this delivery area.
+- [x] T083: Assignment interpretation task 23 - verify, document, or improve this delivery area.
+- [x] T084: Assignment interpretation task 24 - verify, document, or improve this delivery area.
+- [x] T085: Assignment interpretation task 25 - verify, document, or improve this delivery area.
+- [x] T086: Assignment interpretation task 26 - verify, document, or improve this delivery area.
+- [x] T087: Assignment interpretation task 27 - verify, document, or improve this delivery area.
+- [x] T088: Assignment interpretation task 28 - verify, document, or improve this delivery area.
+- [x] T089: Assignment interpretation task 29 - verify, document, or improve this delivery area.
+- [x] T090: Assignment interpretation task 30 - verify, document, or improve this delivery area.
+
+## Product requirements
+
+- [x] T091: Product requirements task 01 - verify, document, or improve this delivery area.
+- [x] T092: Product requirements task 02 - verify, document, or improve this delivery area.
+- [x] T093: Product requirements task 03 - verify, document, or improve this delivery area.
+- [x] T094: Product requirements task 04 - verify, document, or improve this delivery area.
+- [x] T095: Product requirements task 05 - verify, document, or improve this delivery area.
+- [x] T096: Product requirements task 06 - verify, document, or improve this delivery area.
+- [x] T097: Product requirements task 07 - verify, document, or improve this delivery area.
+- [x] T098: Product requirements task 08 - verify, document, or improve this delivery area.
+- [x] T099: Product requirements task 09 - verify, document, or improve this delivery area.
+- [x] T100: Product requirements task 10 - verify, document, or improve this delivery area.
+- [x] T101: Product requirements task 11 - verify, document, or improve this delivery area.
+- [x] T102: Product requirements task 12 - verify, document, or improve this delivery area.
+- [x] T103: Product requirements task 13 - verify, document, or improve this delivery area.
+- [x] T104: Product requirements task 14 - verify, document, or improve this delivery area.
+- [x] T105: Product requirements task 15 - verify, document, or improve this delivery area.
+- [x] T106: Product requirements task 16 - verify, document, or improve this delivery area.
+- [x] T107: Product requirements task 17 - verify, document, or improve this delivery area.
+- [x] T108: Product requirements task 18 - verify, document, or improve this delivery area.
+- [x] T109: Product requirements task 19 - verify, document, or improve this delivery area.
+- [x] T110: Product requirements task 20 - verify, document, or improve this delivery area.
+- [x] T111: Product requirements task 21 - verify, document, or improve this delivery area.
+- [x] T112: Product requirements task 22 - verify, document, or improve this delivery area.
+- [x] T113: Product requirements task 23 - verify, document, or improve this delivery area.
+- [x] T114: Product requirements task 24 - verify, document, or improve this delivery area.
+- [x] T115: Product requirements task 25 - verify, document, or improve this delivery area.
+- [x] T116: Product requirements task 26 - verify, document, or improve this delivery area.
+- [x] T117: Product requirements task 27 - verify, document, or improve this delivery area.
+- [x] T118: Product requirements task 28 - verify, document, or improve this delivery area.
+- [x] T119: Product requirements task 29 - verify, document, or improve this delivery area.
+- [x] T120: Product requirements task 30 - verify, document, or improve this delivery area.
+
+## Architecture planning
+
+- [x] T121: Architecture planning task 01 - verify, document, or improve this delivery area.
+- [x] T122: Architecture planning task 02 - verify, document, or improve this delivery area.
+- [x] T123: Architecture planning task 03 - verify, document, or improve this delivery area.
+- [x] T124: Architecture planning task 04 - verify, document, or improve this delivery area.
+- [x] T125: Architecture planning task 05 - verify, document, or improve this delivery area.
+- [x] T126: Architecture planning task 06 - verify, document, or improve this delivery area.
+- [x] T127: Architecture planning task 07 - verify, document, or improve this delivery area.
+- [x] T128: Architecture planning task 08 - verify, document, or improve this delivery area.
+- [x] T129: Architecture planning task 09 - verify, document, or improve this delivery area.
+- [x] T130: Architecture planning task 10 - verify, document, or improve this delivery area.
+- [x] T131: Architecture planning task 11 - verify, document, or improve this delivery area.
+- [x] T132: Architecture planning task 12 - verify, document, or improve this delivery area.
+- [x] T133: Architecture planning task 13 - verify, document, or improve this delivery area.
+- [x] T134: Architecture planning task 14 - verify, document, or improve this delivery area.
+- [x] T135: Architecture planning task 15 - verify, document, or improve this delivery area.
+- [x] T136: Architecture planning task 16 - verify, document, or improve this delivery area.
+- [x] T137: Architecture planning task 17 - verify, document, or improve this delivery area.
+- [x] T138: Architecture planning task 18 - verify, document, or improve this delivery area.
+- [x] T139: Architecture planning task 19 - verify, document, or improve this delivery area.
+- [x] T140: Architecture planning task 20 - verify, document, or improve this delivery area.
+- [x] T141: Architecture planning task 21 - verify, document, or improve this delivery area.
+- [x] T142: Architecture planning task 22 - verify, document, or improve this delivery area.
+- [x] T143: Architecture planning task 23 - verify, document, or improve this delivery area.
+- [x] T144: Architecture planning task 24 - verify, document, or improve this delivery area.
+- [x] T145: Architecture planning task 25 - verify, document, or improve this delivery area.
+- [x] T146: Architecture planning task 26 - verify, document, or improve this delivery area.
+- [x] T147: Architecture planning task 27 - verify, document, or improve this delivery area.
+- [x] T148: Architecture planning task 28 - verify, document, or improve this delivery area.
+- [x] T149: Architecture planning task 29 - verify, document, or improve this delivery area.
+- [x] T150: Architecture planning task 30 - verify, document, or improve this delivery area.
+
+## Agent role design
+
+- [x] T151: Agent role design task 01 - verify, document, or improve this delivery area.
+- [x] T152: Agent role design task 02 - verify, document, or improve this delivery area.
+- [x] T153: Agent role design task 03 - verify, document, or improve this delivery area.
+- [x] T154: Agent role design task 04 - verify, document, or improve this delivery area.
+- [x] T155: Agent role design task 05 - verify, document, or improve this delivery area.
+- [x] T156: Agent role design task 06 - verify, document, or improve this delivery area.
+- [x] T157: Agent role design task 07 - verify, document, or improve this delivery area.
+- [x] T158: Agent role design task 08 - verify, document, or improve this delivery area.
+- [x] T159: Agent role design task 09 - verify, document, or improve this delivery area.
+- [x] T160: Agent role design task 10 - verify, document, or improve this delivery area.
+- [x] T161: Agent role design task 11 - verify, document, or improve this delivery area.
+- [x] T162: Agent role design task 12 - verify, document, or improve this delivery area.
+- [x] T163: Agent role design task 13 - verify, document, or improve this delivery area.
+- [x] T164: Agent role design task 14 - verify, document, or improve this delivery area.
+- [x] T165: Agent role design task 15 - verify, document, or improve this delivery area.
+- [x] T166: Agent role design task 16 - verify, document, or improve this delivery area.
+- [x] T167: Agent role design task 17 - verify, document, or improve this delivery area.
+- [x] T168: Agent role design task 18 - verify, document, or improve this delivery area.
+- [x] T169: Agent role design task 19 - verify, document, or improve this delivery area.
+- [x] T170: Agent role design task 20 - verify, document, or improve this delivery area.
+- [x] T171: Agent role design task 21 - verify, document, or improve this delivery area.
+- [x] T172: Agent role design task 22 - verify, document, or improve this delivery area.
+- [x] T173: Agent role design task 23 - verify, document, or improve this delivery area.
+- [x] T174: Agent role design task 24 - verify, document, or improve this delivery area.
+- [x] T175: Agent role design task 25 - verify, document, or improve this delivery area.
+- [x] T176: Agent role design task 26 - verify, document, or improve this delivery area.
+- [x] T177: Agent role design task 27 - verify, document, or improve this delivery area.
+- [x] T178: Agent role design task 28 - verify, document, or improve this delivery area.
+- [x] T179: Agent role design task 29 - verify, document, or improve this delivery area.
+- [x] T180: Agent role design task 30 - verify, document, or improve this delivery area.
+
+## Task contract design
+
+- [x] T181: Task contract design task 01 - verify, document, or improve this delivery area.
+- [x] T182: Task contract design task 02 - verify, document, or improve this delivery area.
+- [x] T183: Task contract design task 03 - verify, document, or improve this delivery area.
+- [x] T184: Task contract design task 04 - verify, document, or improve this delivery area.
+- [x] T185: Task contract design task 05 - verify, document, or improve this delivery area.
+- [x] T186: Task contract design task 06 - verify, document, or improve this delivery area.
+- [x] T187: Task contract design task 07 - verify, document, or improve this delivery area.
+- [x] T188: Task contract design task 08 - verify, document, or improve this delivery area.
+- [x] T189: Task contract design task 09 - verify, document, or improve this delivery area.
+- [x] T190: Task contract design task 10 - verify, document, or improve this delivery area.
+- [x] T191: Task contract design task 11 - verify, document, or improve this delivery area.
+- [x] T192: Task contract design task 12 - verify, document, or improve this delivery area.
+- [x] T193: Task contract design task 13 - verify, document, or improve this delivery area.
+- [x] T194: Task contract design task 14 - verify, document, or improve this delivery area.
+- [x] T195: Task contract design task 15 - verify, document, or improve this delivery area.
+- [x] T196: Task contract design task 16 - verify, document, or improve this delivery area.
+- [x] T197: Task contract design task 17 - verify, document, or improve this delivery area.
+- [x] T198: Task contract design task 18 - verify, document, or improve this delivery area.
+- [x] T199: Task contract design task 19 - verify, document, or improve this delivery area.
+- [x] T200: Task contract design task 20 - verify, document, or improve this delivery area.
+- [x] T201: Task contract design task 21 - verify, document, or improve this delivery area.
+- [x] T202: Task contract design task 22 - verify, document, or improve this delivery area.
+- [x] T203: Task contract design task 23 - verify, document, or improve this delivery area.
+- [x] T204: Task contract design task 24 - verify, document, or improve this delivery area.
+- [x] T205: Task contract design task 25 - verify, document, or improve this delivery area.
+- [x] T206: Task contract design task 26 - verify, document, or improve this delivery area.
+- [x] T207: Task contract design task 27 - verify, document, or improve this delivery area.
+- [x] T208: Task contract design task 28 - verify, document, or improve this delivery area.
+- [x] T209: Task contract design task 29 - verify, document, or improve this delivery area.
+- [x] T210: Task contract design task 30 - verify, document, or improve this delivery area.
+
+## CrewAI integration
+
+- [ ] T211: CrewAI integration task 01 - verify, document, or improve this delivery area.
+- [ ] T212: CrewAI integration task 02 - verify, document, or improve this delivery area.
+- [ ] T213: CrewAI integration task 03 - verify, document, or improve this delivery area.
+- [ ] T214: CrewAI integration task 04 - verify, document, or improve this delivery area.
+- [ ] T215: CrewAI integration task 05 - verify, document, or improve this delivery area.
+- [ ] T216: CrewAI integration task 06 - verify, document, or improve this delivery area.
+- [ ] T217: CrewAI integration task 07 - verify, document, or improve this delivery area.
+- [ ] T218: CrewAI integration task 08 - verify, document, or improve this delivery area.
+- [ ] T219: CrewAI integration task 09 - verify, document, or improve this delivery area.
+- [ ] T220: CrewAI integration task 10 - verify, document, or improve this delivery area.
+- [ ] T221: CrewAI integration task 11 - verify, document, or improve this delivery area.
+- [ ] T222: CrewAI integration task 12 - verify, document, or improve this delivery area.
+- [ ] T223: CrewAI integration task 13 - verify, document, or improve this delivery area.
+- [ ] T224: CrewAI integration task 14 - verify, document, or improve this delivery area.
+- [ ] T225: CrewAI integration task 15 - verify, document, or improve this delivery area.
+- [ ] T226: CrewAI integration task 16 - verify, document, or improve this delivery area.
+- [ ] T227: CrewAI integration task 17 - verify, document, or improve this delivery area.
+- [ ] T228: CrewAI integration task 18 - verify, document, or improve this delivery area.
+- [ ] T229: CrewAI integration task 19 - verify, document, or improve this delivery area.
+- [ ] T230: CrewAI integration task 20 - verify, document, or improve this delivery area.
+- [ ] T231: CrewAI integration task 21 - verify, document, or improve this delivery area.
+- [ ] T232: CrewAI integration task 22 - verify, document, or improve this delivery area.
+- [ ] T233: CrewAI integration task 23 - verify, document, or improve this delivery area.
+- [ ] T234: CrewAI integration task 24 - verify, document, or improve this delivery area.
+- [ ] T235: CrewAI integration task 25 - verify, document, or improve this delivery area.
+- [ ] T236: CrewAI integration task 26 - verify, document, or improve this delivery area.
+- [ ] T237: CrewAI integration task 27 - verify, document, or improve this delivery area.
+- [ ] T238: CrewAI integration task 28 - verify, document, or improve this delivery area.
+- [ ] T239: CrewAI integration task 29 - verify, document, or improve this delivery area.
+- [ ] T240: CrewAI integration task 30 - verify, document, or improve this delivery area.
+
+## Offline deterministic mode
+
+- [ ] T241: Offline deterministic mode task 01 - verify, document, or improve this delivery area.
+- [ ] T242: Offline deterministic mode task 02 - verify, document, or improve this delivery area.
+- [ ] T243: Offline deterministic mode task 03 - verify, document, or improve this delivery area.
+- [ ] T244: Offline deterministic mode task 04 - verify, document, or improve this delivery area.
+- [ ] T245: Offline deterministic mode task 05 - verify, document, or improve this delivery area.
+- [ ] T246: Offline deterministic mode task 06 - verify, document, or improve this delivery area.
+- [ ] T247: Offline deterministic mode task 07 - verify, document, or improve this delivery area.
+- [ ] T248: Offline deterministic mode task 08 - verify, document, or improve this delivery area.
+- [ ] T249: Offline deterministic mode task 09 - verify, document, or improve this delivery area.
+- [ ] T250: Offline deterministic mode task 10 - verify, document, or improve this delivery area.
+- [ ] T251: Offline deterministic mode task 11 - verify, document, or improve this delivery area.
+- [ ] T252: Offline deterministic mode task 12 - verify, document, or improve this delivery area.
+- [ ] T253: Offline deterministic mode task 13 - verify, document, or improve this delivery area.
+- [ ] T254: Offline deterministic mode task 14 - verify, document, or improve this delivery area.
+- [ ] T255: Offline deterministic mode task 15 - verify, document, or improve this delivery area.
+- [ ] T256: Offline deterministic mode task 16 - verify, document, or improve this delivery area.
+- [ ] T257: Offline deterministic mode task 17 - verify, document, or improve this delivery area.
+- [ ] T258: Offline deterministic mode task 18 - verify, document, or improve this delivery area.
+- [ ] T259: Offline deterministic mode task 19 - verify, document, or improve this delivery area.
+- [ ] T260: Offline deterministic mode task 20 - verify, document, or improve this delivery area.
+- [ ] T261: Offline deterministic mode task 21 - verify, document, or improve this delivery area.
+- [ ] T262: Offline deterministic mode task 22 - verify, document, or improve this delivery area.
+- [ ] T263: Offline deterministic mode task 23 - verify, document, or improve this delivery area.
+- [ ] T264: Offline deterministic mode task 24 - verify, document, or improve this delivery area.
+- [ ] T265: Offline deterministic mode task 25 - verify, document, or improve this delivery area.
+- [ ] T266: Offline deterministic mode task 26 - verify, document, or improve this delivery area.
+- [ ] T267: Offline deterministic mode task 27 - verify, document, or improve this delivery area.
+- [ ] T268: Offline deterministic mode task 28 - verify, document, or improve this delivery area.
+- [ ] T269: Offline deterministic mode task 29 - verify, document, or improve this delivery area.
+- [ ] T270: Offline deterministic mode task 30 - verify, document, or improve this delivery area.
+
+## Markdown manuscript
+
+- [ ] T271: Markdown manuscript task 01 - verify, document, or improve this delivery area.
+- [ ] T272: Markdown manuscript task 02 - verify, document, or improve this delivery area.
+- [ ] T273: Markdown manuscript task 03 - verify, document, or improve this delivery area.
+- [ ] T274: Markdown manuscript task 04 - verify, document, or improve this delivery area.
+- [ ] T275: Markdown manuscript task 05 - verify, document, or improve this delivery area.
+- [ ] T276: Markdown manuscript task 06 - verify, document, or improve this delivery area.
+- [ ] T277: Markdown manuscript task 07 - verify, document, or improve this delivery area.
+- [ ] T278: Markdown manuscript task 08 - verify, document, or improve this delivery area.
+- [ ] T279: Markdown manuscript task 09 - verify, document, or improve this delivery area.
+- [ ] T280: Markdown manuscript task 10 - verify, document, or improve this delivery area.
+- [ ] T281: Markdown manuscript task 11 - verify, document, or improve this delivery area.
+- [ ] T282: Markdown manuscript task 12 - verify, document, or improve this delivery area.
+- [ ] T283: Markdown manuscript task 13 - verify, document, or improve this delivery area.
+- [ ] T284: Markdown manuscript task 14 - verify, document, or improve this delivery area.
+- [ ] T285: Markdown manuscript task 15 - verify, document, or improve this delivery area.
+- [ ] T286: Markdown manuscript task 16 - verify, document, or improve this delivery area.
+- [ ] T287: Markdown manuscript task 17 - verify, document, or improve this delivery area.
+- [ ] T288: Markdown manuscript task 18 - verify, document, or improve this delivery area.
+- [ ] T289: Markdown manuscript task 19 - verify, document, or improve this delivery area.
+- [ ] T290: Markdown manuscript task 20 - verify, document, or improve this delivery area.
+- [ ] T291: Markdown manuscript task 21 - verify, document, or improve this delivery area.
+- [ ] T292: Markdown manuscript task 22 - verify, document, or improve this delivery area.
+- [ ] T293: Markdown manuscript task 23 - verify, document, or improve this delivery area.
+- [ ] T294: Markdown manuscript task 24 - verify, document, or improve this delivery area.
+- [ ] T295: Markdown manuscript task 25 - verify, document, or improve this delivery area.
+- [ ] T296: Markdown manuscript task 26 - verify, document, or improve this delivery area.
+- [ ] T297: Markdown manuscript task 27 - verify, document, or improve this delivery area.
+- [ ] T298: Markdown manuscript task 28 - verify, document, or improve this delivery area.
+- [ ] T299: Markdown manuscript task 29 - verify, document, or improve this delivery area.
+- [ ] T300: Markdown manuscript task 30 - verify, document, or improve this delivery area.
+
+## Research quality
+
+- [ ] T301: Research quality task 01 - verify, document, or improve this delivery area.
+- [ ] T302: Research quality task 02 - verify, document, or improve this delivery area.
+- [ ] T303: Research quality task 03 - verify, document, or improve this delivery area.
+- [ ] T304: Research quality task 04 - verify, document, or improve this delivery area.
+- [ ] T305: Research quality task 05 - verify, document, or improve this delivery area.
+- [ ] T306: Research quality task 06 - verify, document, or improve this delivery area.
+- [ ] T307: Research quality task 07 - verify, document, or improve this delivery area.
+- [ ] T308: Research quality task 08 - verify, document, or improve this delivery area.
+- [ ] T309: Research quality task 09 - verify, document, or improve this delivery area.
+- [ ] T310: Research quality task 10 - verify, document, or improve this delivery area.
+- [ ] T311: Research quality task 11 - verify, document, or improve this delivery area.
+- [ ] T312: Research quality task 12 - verify, document, or improve this delivery area.
+- [ ] T313: Research quality task 13 - verify, document, or improve this delivery area.
+- [ ] T314: Research quality task 14 - verify, document, or improve this delivery area.
+- [ ] T315: Research quality task 15 - verify, document, or improve this delivery area.
+- [ ] T316: Research quality task 16 - verify, document, or improve this delivery area.
+- [ ] T317: Research quality task 17 - verify, document, or improve this delivery area.
+- [ ] T318: Research quality task 18 - verify, document, or improve this delivery area.
+- [ ] T319: Research quality task 19 - verify, document, or improve this delivery area.
+- [ ] T320: Research quality task 20 - verify, document, or improve this delivery area.
+- [ ] T321: Research quality task 21 - verify, document, or improve this delivery area.
+- [ ] T322: Research quality task 22 - verify, document, or improve this delivery area.
+- [ ] T323: Research quality task 23 - verify, document, or improve this delivery area.
+- [ ] T324: Research quality task 24 - verify, document, or improve this delivery area.
+- [ ] T325: Research quality task 25 - verify, document, or improve this delivery area.
+- [ ] T326: Research quality task 26 - verify, document, or improve this delivery area.
+- [ ] T327: Research quality task 27 - verify, document, or improve this delivery area.
+- [ ] T328: Research quality task 28 - verify, document, or improve this delivery area.
+- [ ] T329: Research quality task 29 - verify, document, or improve this delivery area.
+- [ ] T330: Research quality task 30 - verify, document, or improve this delivery area.
+
+## Citation management
+
+- [ ] T331: Citation management task 01 - verify, document, or improve this delivery area.
+- [ ] T332: Citation management task 02 - verify, document, or improve this delivery area.
+- [ ] T333: Citation management task 03 - verify, document, or improve this delivery area.
+- [ ] T334: Citation management task 04 - verify, document, or improve this delivery area.
+- [ ] T335: Citation management task 05 - verify, document, or improve this delivery area.
+- [ ] T336: Citation management task 06 - verify, document, or improve this delivery area.
+- [ ] T337: Citation management task 07 - verify, document, or improve this delivery area.
+- [ ] T338: Citation management task 08 - verify, document, or improve this delivery area.
+- [ ] T339: Citation management task 09 - verify, document, or improve this delivery area.
+- [ ] T340: Citation management task 10 - verify, document, or improve this delivery area.
+- [ ] T341: Citation management task 11 - verify, document, or improve this delivery area.
+- [ ] T342: Citation management task 12 - verify, document, or improve this delivery area.
+- [ ] T343: Citation management task 13 - verify, document, or improve this delivery area.
+- [ ] T344: Citation management task 14 - verify, document, or improve this delivery area.
+- [ ] T345: Citation management task 15 - verify, document, or improve this delivery area.
+- [ ] T346: Citation management task 16 - verify, document, or improve this delivery area.
+- [ ] T347: Citation management task 17 - verify, document, or improve this delivery area.
+- [ ] T348: Citation management task 18 - verify, document, or improve this delivery area.
+- [ ] T349: Citation management task 19 - verify, document, or improve this delivery area.
+- [ ] T350: Citation management task 20 - verify, document, or improve this delivery area.
+- [ ] T351: Citation management task 21 - verify, document, or improve this delivery area.
+- [ ] T352: Citation management task 22 - verify, document, or improve this delivery area.
+- [ ] T353: Citation management task 23 - verify, document, or improve this delivery area.
+- [ ] T354: Citation management task 24 - verify, document, or improve this delivery area.
+- [ ] T355: Citation management task 25 - verify, document, or improve this delivery area.
+- [ ] T356: Citation management task 26 - verify, document, or improve this delivery area.
+- [ ] T357: Citation management task 27 - verify, document, or improve this delivery area.
+- [ ] T358: Citation management task 28 - verify, document, or improve this delivery area.
+- [ ] T359: Citation management task 29 - verify, document, or improve this delivery area.
+- [ ] T360: Citation management task 30 - verify, document, or improve this delivery area.
+
+## LaTeX structure
+
+- [ ] T361: LaTeX structure task 01 - verify, document, or improve this delivery area.
+- [ ] T362: LaTeX structure task 02 - verify, document, or improve this delivery area.
+- [ ] T363: LaTeX structure task 03 - verify, document, or improve this delivery area.
+- [ ] T364: LaTeX structure task 04 - verify, document, or improve this delivery area.
+- [ ] T365: LaTeX structure task 05 - verify, document, or improve this delivery area.
+- [ ] T366: LaTeX structure task 06 - verify, document, or improve this delivery area.
+- [ ] T367: LaTeX structure task 07 - verify, document, or improve this delivery area.
+- [ ] T368: LaTeX structure task 08 - verify, document, or improve this delivery area.
+- [ ] T369: LaTeX structure task 09 - verify, document, or improve this delivery area.
+- [ ] T370: LaTeX structure task 10 - verify, document, or improve this delivery area.
+- [ ] T371: LaTeX structure task 11 - verify, document, or improve this delivery area.
+- [ ] T372: LaTeX structure task 12 - verify, document, or improve this delivery area.
+- [ ] T373: LaTeX structure task 13 - verify, document, or improve this delivery area.
+- [ ] T374: LaTeX structure task 14 - verify, document, or improve this delivery area.
+- [ ] T375: LaTeX structure task 15 - verify, document, or improve this delivery area.
+- [ ] T376: LaTeX structure task 16 - verify, document, or improve this delivery area.
+- [ ] T377: LaTeX structure task 17 - verify, document, or improve this delivery area.
+- [ ] T378: LaTeX structure task 18 - verify, document, or improve this delivery area.
+- [ ] T379: LaTeX structure task 19 - verify, document, or improve this delivery area.
+- [ ] T380: LaTeX structure task 20 - verify, document, or improve this delivery area.
+- [ ] T381: LaTeX structure task 21 - verify, document, or improve this delivery area.
+- [ ] T382: LaTeX structure task 22 - verify, document, or improve this delivery area.
+- [ ] T383: LaTeX structure task 23 - verify, document, or improve this delivery area.
+- [ ] T384: LaTeX structure task 24 - verify, document, or improve this delivery area.
+- [ ] T385: LaTeX structure task 25 - verify, document, or improve this delivery area.
+- [ ] T386: LaTeX structure task 26 - verify, document, or improve this delivery area.
+- [ ] T387: LaTeX structure task 27 - verify, document, or improve this delivery area.
+- [ ] T388: LaTeX structure task 28 - verify, document, or improve this delivery area.
+- [ ] T389: LaTeX structure task 29 - verify, document, or improve this delivery area.
+- [ ] T390: LaTeX structure task 30 - verify, document, or improve this delivery area.
+
+## Hebrew BiDi layout
+
+- [ ] T391: Hebrew BiDi layout task 01 - verify, document, or improve this delivery area.
+- [ ] T392: Hebrew BiDi layout task 02 - verify, document, or improve this delivery area.
+- [ ] T393: Hebrew BiDi layout task 03 - verify, document, or improve this delivery area.
+- [ ] T394: Hebrew BiDi layout task 04 - verify, document, or improve this delivery area.
+- [ ] T395: Hebrew BiDi layout task 05 - verify, document, or improve this delivery area.
+- [ ] T396: Hebrew BiDi layout task 06 - verify, document, or improve this delivery area.
+- [ ] T397: Hebrew BiDi layout task 07 - verify, document, or improve this delivery area.
+- [ ] T398: Hebrew BiDi layout task 08 - verify, document, or improve this delivery area.
+- [ ] T399: Hebrew BiDi layout task 09 - verify, document, or improve this delivery area.
+- [ ] T400: Hebrew BiDi layout task 10 - verify, document, or improve this delivery area.
+- [ ] T401: Hebrew BiDi layout task 11 - verify, document, or improve this delivery area.
+- [ ] T402: Hebrew BiDi layout task 12 - verify, document, or improve this delivery area.
+- [ ] T403: Hebrew BiDi layout task 13 - verify, document, or improve this delivery area.
+- [ ] T404: Hebrew BiDi layout task 14 - verify, document, or improve this delivery area.
+- [ ] T405: Hebrew BiDi layout task 15 - verify, document, or improve this delivery area.
+- [ ] T406: Hebrew BiDi layout task 16 - verify, document, or improve this delivery area.
+- [ ] T407: Hebrew BiDi layout task 17 - verify, document, or improve this delivery area.
+- [ ] T408: Hebrew BiDi layout task 18 - verify, document, or improve this delivery area.
+- [ ] T409: Hebrew BiDi layout task 19 - verify, document, or improve this delivery area.
+- [ ] T410: Hebrew BiDi layout task 20 - verify, document, or improve this delivery area.
+- [ ] T411: Hebrew BiDi layout task 21 - verify, document, or improve this delivery area.
+- [ ] T412: Hebrew BiDi layout task 22 - verify, document, or improve this delivery area.
+- [ ] T413: Hebrew BiDi layout task 23 - verify, document, or improve this delivery area.
+- [ ] T414: Hebrew BiDi layout task 24 - verify, document, or improve this delivery area.
+- [ ] T415: Hebrew BiDi layout task 25 - verify, document, or improve this delivery area.
+- [ ] T416: Hebrew BiDi layout task 26 - verify, document, or improve this delivery area.
+- [ ] T417: Hebrew BiDi layout task 27 - verify, document, or improve this delivery area.
+- [ ] T418: Hebrew BiDi layout task 28 - verify, document, or improve this delivery area.
+- [ ] T419: Hebrew BiDi layout task 29 - verify, document, or improve this delivery area.
+- [ ] T420: Hebrew BiDi layout task 30 - verify, document, or improve this delivery area.
+
+## PDF typography
+
+- [ ] T421: PDF typography task 01 - verify, document, or improve this delivery area.
+- [ ] T422: PDF typography task 02 - verify, document, or improve this delivery area.
+- [ ] T423: PDF typography task 03 - verify, document, or improve this delivery area.
+- [ ] T424: PDF typography task 04 - verify, document, or improve this delivery area.
+- [ ] T425: PDF typography task 05 - verify, document, or improve this delivery area.
+- [ ] T426: PDF typography task 06 - verify, document, or improve this delivery area.
+- [ ] T427: PDF typography task 07 - verify, document, or improve this delivery area.
+- [ ] T428: PDF typography task 08 - verify, document, or improve this delivery area.
+- [ ] T429: PDF typography task 09 - verify, document, or improve this delivery area.
+- [ ] T430: PDF typography task 10 - verify, document, or improve this delivery area.
+- [ ] T431: PDF typography task 11 - verify, document, or improve this delivery area.
+- [ ] T432: PDF typography task 12 - verify, document, or improve this delivery area.
+- [ ] T433: PDF typography task 13 - verify, document, or improve this delivery area.
+- [ ] T434: PDF typography task 14 - verify, document, or improve this delivery area.
+- [ ] T435: PDF typography task 15 - verify, document, or improve this delivery area.
+- [ ] T436: PDF typography task 16 - verify, document, or improve this delivery area.
+- [ ] T437: PDF typography task 17 - verify, document, or improve this delivery area.
+- [ ] T438: PDF typography task 18 - verify, document, or improve this delivery area.
+- [ ] T439: PDF typography task 19 - verify, document, or improve this delivery area.
+- [ ] T440: PDF typography task 20 - verify, document, or improve this delivery area.
+- [ ] T441: PDF typography task 21 - verify, document, or improve this delivery area.
+- [ ] T442: PDF typography task 22 - verify, document, or improve this delivery area.
+- [ ] T443: PDF typography task 23 - verify, document, or improve this delivery area.
+- [ ] T444: PDF typography task 24 - verify, document, or improve this delivery area.
+- [ ] T445: PDF typography task 25 - verify, document, or improve this delivery area.
+- [ ] T446: PDF typography task 26 - verify, document, or improve this delivery area.
+- [ ] T447: PDF typography task 27 - verify, document, or improve this delivery area.
+- [ ] T448: PDF typography task 28 - verify, document, or improve this delivery area.
+- [ ] T449: PDF typography task 29 - verify, document, or improve this delivery area.
+- [ ] T450: PDF typography task 30 - verify, document, or improve this delivery area.
+
+## Figure generation
+
+- [ ] T451: Figure generation task 01 - verify, document, or improve this delivery area.
+- [ ] T452: Figure generation task 02 - verify, document, or improve this delivery area.
+- [ ] T453: Figure generation task 03 - verify, document, or improve this delivery area.
+- [ ] T454: Figure generation task 04 - verify, document, or improve this delivery area.
+- [ ] T455: Figure generation task 05 - verify, document, or improve this delivery area.
+- [ ] T456: Figure generation task 06 - verify, document, or improve this delivery area.
+- [ ] T457: Figure generation task 07 - verify, document, or improve this delivery area.
+- [ ] T458: Figure generation task 08 - verify, document, or improve this delivery area.
+- [ ] T459: Figure generation task 09 - verify, document, or improve this delivery area.
+- [ ] T460: Figure generation task 10 - verify, document, or improve this delivery area.
+- [ ] T461: Figure generation task 11 - verify, document, or improve this delivery area.
+- [ ] T462: Figure generation task 12 - verify, document, or improve this delivery area.
+- [ ] T463: Figure generation task 13 - verify, document, or improve this delivery area.
+- [ ] T464: Figure generation task 14 - verify, document, or improve this delivery area.
+- [ ] T465: Figure generation task 15 - verify, document, or improve this delivery area.
+- [ ] T466: Figure generation task 16 - verify, document, or improve this delivery area.
+- [ ] T467: Figure generation task 17 - verify, document, or improve this delivery area.
+- [ ] T468: Figure generation task 18 - verify, document, or improve this delivery area.
+- [ ] T469: Figure generation task 19 - verify, document, or improve this delivery area.
+- [ ] T470: Figure generation task 20 - verify, document, or improve this delivery area.
+- [ ] T471: Figure generation task 21 - verify, document, or improve this delivery area.
+- [ ] T472: Figure generation task 22 - verify, document, or improve this delivery area.
+- [ ] T473: Figure generation task 23 - verify, document, or improve this delivery area.
+- [ ] T474: Figure generation task 24 - verify, document, or improve this delivery area.
+- [ ] T475: Figure generation task 25 - verify, document, or improve this delivery area.
+- [ ] T476: Figure generation task 26 - verify, document, or improve this delivery area.
+- [ ] T477: Figure generation task 27 - verify, document, or improve this delivery area.
+- [ ] T478: Figure generation task 28 - verify, document, or improve this delivery area.
+- [ ] T479: Figure generation task 29 - verify, document, or improve this delivery area.
+- [ ] T480: Figure generation task 30 - verify, document, or improve this delivery area.
+
+## Python chart generation
+
+- [ ] T481: Python chart generation task 01 - verify, document, or improve this delivery area.
+- [ ] T482: Python chart generation task 02 - verify, document, or improve this delivery area.
+- [ ] T483: Python chart generation task 03 - verify, document, or improve this delivery area.
+- [ ] T484: Python chart generation task 04 - verify, document, or improve this delivery area.
+- [ ] T485: Python chart generation task 05 - verify, document, or improve this delivery area.
+- [ ] T486: Python chart generation task 06 - verify, document, or improve this delivery area.
+- [ ] T487: Python chart generation task 07 - verify, document, or improve this delivery area.
+- [ ] T488: Python chart generation task 08 - verify, document, or improve this delivery area.
+- [ ] T489: Python chart generation task 09 - verify, document, or improve this delivery area.
+- [ ] T490: Python chart generation task 10 - verify, document, or improve this delivery area.
+- [ ] T491: Python chart generation task 11 - verify, document, or improve this delivery area.
+- [ ] T492: Python chart generation task 12 - verify, document, or improve this delivery area.
+- [ ] T493: Python chart generation task 13 - verify, document, or improve this delivery area.
+- [ ] T494: Python chart generation task 14 - verify, document, or improve this delivery area.
+- [ ] T495: Python chart generation task 15 - verify, document, or improve this delivery area.
+- [ ] T496: Python chart generation task 16 - verify, document, or improve this delivery area.
+- [ ] T497: Python chart generation task 17 - verify, document, or improve this delivery area.
+- [ ] T498: Python chart generation task 18 - verify, document, or improve this delivery area.
+- [ ] T499: Python chart generation task 19 - verify, document, or improve this delivery area.
+- [ ] T500: Python chart generation task 20 - verify, document, or improve this delivery area.
+- [ ] T501: Python chart generation task 21 - verify, document, or improve this delivery area.
+- [ ] T502: Python chart generation task 22 - verify, document, or improve this delivery area.
+- [ ] T503: Python chart generation task 23 - verify, document, or improve this delivery area.
+- [ ] T504: Python chart generation task 24 - verify, document, or improve this delivery area.
+- [ ] T505: Python chart generation task 25 - verify, document, or improve this delivery area.
+- [ ] T506: Python chart generation task 26 - verify, document, or improve this delivery area.
+- [ ] T507: Python chart generation task 27 - verify, document, or improve this delivery area.
+- [ ] T508: Python chart generation task 28 - verify, document, or improve this delivery area.
+- [ ] T509: Python chart generation task 29 - verify, document, or improve this delivery area.
+- [ ] T510: Python chart generation task 30 - verify, document, or improve this delivery area.
+
+## Tables and formulas
+
+- [ ] T511: Tables and formulas task 01 - verify, document, or improve this delivery area.
+- [ ] T512: Tables and formulas task 02 - verify, document, or improve this delivery area.
+- [ ] T513: Tables and formulas task 03 - verify, document, or improve this delivery area.
+- [ ] T514: Tables and formulas task 04 - verify, document, or improve this delivery area.
+- [ ] T515: Tables and formulas task 05 - verify, document, or improve this delivery area.
+- [ ] T516: Tables and formulas task 06 - verify, document, or improve this delivery area.
+- [ ] T517: Tables and formulas task 07 - verify, document, or improve this delivery area.
+- [ ] T518: Tables and formulas task 08 - verify, document, or improve this delivery area.
+- [ ] T519: Tables and formulas task 09 - verify, document, or improve this delivery area.
+- [ ] T520: Tables and formulas task 10 - verify, document, or improve this delivery area.
+- [ ] T521: Tables and formulas task 11 - verify, document, or improve this delivery area.
+- [ ] T522: Tables and formulas task 12 - verify, document, or improve this delivery area.
+- [ ] T523: Tables and formulas task 13 - verify, document, or improve this delivery area.
+- [ ] T524: Tables and formulas task 14 - verify, document, or improve this delivery area.
+- [ ] T525: Tables and formulas task 15 - verify, document, or improve this delivery area.
+- [ ] T526: Tables and formulas task 16 - verify, document, or improve this delivery area.
+- [ ] T527: Tables and formulas task 17 - verify, document, or improve this delivery area.
+- [ ] T528: Tables and formulas task 18 - verify, document, or improve this delivery area.
+- [ ] T529: Tables and formulas task 19 - verify, document, or improve this delivery area.
+- [ ] T530: Tables and formulas task 20 - verify, document, or improve this delivery area.
+- [ ] T531: Tables and formulas task 21 - verify, document, or improve this delivery area.
+- [ ] T532: Tables and formulas task 22 - verify, document, or improve this delivery area.
+- [ ] T533: Tables and formulas task 23 - verify, document, or improve this delivery area.
+- [ ] T534: Tables and formulas task 24 - verify, document, or improve this delivery area.
+- [ ] T535: Tables and formulas task 25 - verify, document, or improve this delivery area.
+- [ ] T536: Tables and formulas task 26 - verify, document, or improve this delivery area.
+- [ ] T537: Tables and formulas task 27 - verify, document, or improve this delivery area.
+- [ ] T538: Tables and formulas task 28 - verify, document, or improve this delivery area.
+- [ ] T539: Tables and formulas task 29 - verify, document, or improve this delivery area.
+- [ ] T540: Tables and formulas task 30 - verify, document, or improve this delivery area.
+
+## Security and governance
+
+- [ ] T541: Security and governance task 01 - verify, document, or improve this delivery area.
+- [ ] T542: Security and governance task 02 - verify, document, or improve this delivery area.
+- [ ] T543: Security and governance task 03 - verify, document, or improve this delivery area.
+- [ ] T544: Security and governance task 04 - verify, document, or improve this delivery area.
+- [ ] T545: Security and governance task 05 - verify, document, or improve this delivery area.
+- [ ] T546: Security and governance task 06 - verify, document, or improve this delivery area.
+- [ ] T547: Security and governance task 07 - verify, document, or improve this delivery area.
+- [ ] T548: Security and governance task 08 - verify, document, or improve this delivery area.
+- [ ] T549: Security and governance task 09 - verify, document, or improve this delivery area.
+- [ ] T550: Security and governance task 10 - verify, document, or improve this delivery area.
+- [ ] T551: Security and governance task 11 - verify, document, or improve this delivery area.
+- [ ] T552: Security and governance task 12 - verify, document, or improve this delivery area.
+- [ ] T553: Security and governance task 13 - verify, document, or improve this delivery area.
+- [ ] T554: Security and governance task 14 - verify, document, or improve this delivery area.
+- [ ] T555: Security and governance task 15 - verify, document, or improve this delivery area.
+- [ ] T556: Security and governance task 16 - verify, document, or improve this delivery area.
+- [ ] T557: Security and governance task 17 - verify, document, or improve this delivery area.
+- [ ] T558: Security and governance task 18 - verify, document, or improve this delivery area.
+- [ ] T559: Security and governance task 19 - verify, document, or improve this delivery area.
+- [ ] T560: Security and governance task 20 - verify, document, or improve this delivery area.
+- [ ] T561: Security and governance task 21 - verify, document, or improve this delivery area.
+- [ ] T562: Security and governance task 22 - verify, document, or improve this delivery area.
+- [ ] T563: Security and governance task 23 - verify, document, or improve this delivery area.
+- [ ] T564: Security and governance task 24 - verify, document, or improve this delivery area.
+- [ ] T565: Security and governance task 25 - verify, document, or improve this delivery area.
+- [ ] T566: Security and governance task 26 - verify, document, or improve this delivery area.
+- [ ] T567: Security and governance task 27 - verify, document, or improve this delivery area.
+- [ ] T568: Security and governance task 28 - verify, document, or improve this delivery area.
+- [ ] T569: Security and governance task 29 - verify, document, or improve this delivery area.
+- [ ] T570: Security and governance task 30 - verify, document, or improve this delivery area.
+
+## Observability
+
+- [ ] T571: Observability task 01 - verify, document, or improve this delivery area.
+- [ ] T572: Observability task 02 - verify, document, or improve this delivery area.
+- [ ] T573: Observability task 03 - verify, document, or improve this delivery area.
+- [ ] T574: Observability task 04 - verify, document, or improve this delivery area.
+- [ ] T575: Observability task 05 - verify, document, or improve this delivery area.
+- [ ] T576: Observability task 06 - verify, document, or improve this delivery area.
+- [ ] T577: Observability task 07 - verify, document, or improve this delivery area.
+- [ ] T578: Observability task 08 - verify, document, or improve this delivery area.
+- [ ] T579: Observability task 09 - verify, document, or improve this delivery area.
+- [ ] T580: Observability task 10 - verify, document, or improve this delivery area.
+- [ ] T581: Observability task 11 - verify, document, or improve this delivery area.
+- [ ] T582: Observability task 12 - verify, document, or improve this delivery area.
+- [ ] T583: Observability task 13 - verify, document, or improve this delivery area.
+- [ ] T584: Observability task 14 - verify, document, or improve this delivery area.
+- [ ] T585: Observability task 15 - verify, document, or improve this delivery area.
+- [ ] T586: Observability task 16 - verify, document, or improve this delivery area.
+- [ ] T587: Observability task 17 - verify, document, or improve this delivery area.
+- [ ] T588: Observability task 18 - verify, document, or improve this delivery area.
+- [ ] T589: Observability task 19 - verify, document, or improve this delivery area.
+- [ ] T590: Observability task 20 - verify, document, or improve this delivery area.
+- [ ] T591: Observability task 21 - verify, document, or improve this delivery area.
+- [ ] T592: Observability task 22 - verify, document, or improve this delivery area.
+- [ ] T593: Observability task 23 - verify, document, or improve this delivery area.
+- [ ] T594: Observability task 24 - verify, document, or improve this delivery area.
+- [ ] T595: Observability task 25 - verify, document, or improve this delivery area.
+- [ ] T596: Observability task 26 - verify, document, or improve this delivery area.
+- [ ] T597: Observability task 27 - verify, document, or improve this delivery area.
+- [ ] T598: Observability task 28 - verify, document, or improve this delivery area.
+- [ ] T599: Observability task 29 - verify, document, or improve this delivery area.
+- [ ] T600: Observability task 30 - verify, document, or improve this delivery area.
+
+## Human-in-the-loop design
+
+- [ ] T601: Human-in-the-loop design task 01 - verify, document, or improve this delivery area.
+- [ ] T602: Human-in-the-loop design task 02 - verify, document, or improve this delivery area.
+- [ ] T603: Human-in-the-loop design task 03 - verify, document, or improve this delivery area.
+- [ ] T604: Human-in-the-loop design task 04 - verify, document, or improve this delivery area.
+- [ ] T605: Human-in-the-loop design task 05 - verify, document, or improve this delivery area.
+- [ ] T606: Human-in-the-loop design task 06 - verify, document, or improve this delivery area.
+- [ ] T607: Human-in-the-loop design task 07 - verify, document, or improve this delivery area.
+- [ ] T608: Human-in-the-loop design task 08 - verify, document, or improve this delivery area.
+- [ ] T609: Human-in-the-loop design task 09 - verify, document, or improve this delivery area.
+- [ ] T610: Human-in-the-loop design task 10 - verify, document, or improve this delivery area.
+- [ ] T611: Human-in-the-loop design task 11 - verify, document, or improve this delivery area.
+- [ ] T612: Human-in-the-loop design task 12 - verify, document, or improve this delivery area.
+- [ ] T613: Human-in-the-loop design task 13 - verify, document, or improve this delivery area.
+- [ ] T614: Human-in-the-loop design task 14 - verify, document, or improve this delivery area.
+- [ ] T615: Human-in-the-loop design task 15 - verify, document, or improve this delivery area.
+- [ ] T616: Human-in-the-loop design task 16 - verify, document, or improve this delivery area.
+- [ ] T617: Human-in-the-loop design task 17 - verify, document, or improve this delivery area.
+- [ ] T618: Human-in-the-loop design task 18 - verify, document, or improve this delivery area.
+- [ ] T619: Human-in-the-loop design task 19 - verify, document, or improve this delivery area.
+- [ ] T620: Human-in-the-loop design task 20 - verify, document, or improve this delivery area.
+- [ ] T621: Human-in-the-loop design task 21 - verify, document, or improve this delivery area.
+- [ ] T622: Human-in-the-loop design task 22 - verify, document, or improve this delivery area.
+- [ ] T623: Human-in-the-loop design task 23 - verify, document, or improve this delivery area.
+- [ ] T624: Human-in-the-loop design task 24 - verify, document, or improve this delivery area.
+- [ ] T625: Human-in-the-loop design task 25 - verify, document, or improve this delivery area.
+- [ ] T626: Human-in-the-loop design task 26 - verify, document, or improve this delivery area.
+- [ ] T627: Human-in-the-loop design task 27 - verify, document, or improve this delivery area.
+- [ ] T628: Human-in-the-loop design task 28 - verify, document, or improve this delivery area.
+- [ ] T629: Human-in-the-loop design task 29 - verify, document, or improve this delivery area.
+- [ ] T630: Human-in-the-loop design task 30 - verify, document, or improve this delivery area.
+
+## Testing
+
+- [ ] T631: Testing task 01 - verify, document, or improve this delivery area.
+- [ ] T632: Testing task 02 - verify, document, or improve this delivery area.
+- [ ] T633: Testing task 03 - verify, document, or improve this delivery area.
+- [ ] T634: Testing task 04 - verify, document, or improve this delivery area.
+- [ ] T635: Testing task 05 - verify, document, or improve this delivery area.
+- [ ] T636: Testing task 06 - verify, document, or improve this delivery area.
+- [ ] T637: Testing task 07 - verify, document, or improve this delivery area.
+- [ ] T638: Testing task 08 - verify, document, or improve this delivery area.
+- [ ] T639: Testing task 09 - verify, document, or improve this delivery area.
+- [ ] T640: Testing task 10 - verify, document, or improve this delivery area.
+- [ ] T641: Testing task 11 - verify, document, or improve this delivery area.
+- [ ] T642: Testing task 12 - verify, document, or improve this delivery area.
+- [ ] T643: Testing task 13 - verify, document, or improve this delivery area.
+- [ ] T644: Testing task 14 - verify, document, or improve this delivery area.
+- [ ] T645: Testing task 15 - verify, document, or improve this delivery area.
+- [ ] T646: Testing task 16 - verify, document, or improve this delivery area.
+- [ ] T647: Testing task 17 - verify, document, or improve this delivery area.
+- [ ] T648: Testing task 18 - verify, document, or improve this delivery area.
+- [ ] T649: Testing task 19 - verify, document, or improve this delivery area.
+- [ ] T650: Testing task 20 - verify, document, or improve this delivery area.
+- [ ] T651: Testing task 21 - verify, document, or improve this delivery area.
+- [ ] T652: Testing task 22 - verify, document, or improve this delivery area.
+- [ ] T653: Testing task 23 - verify, document, or improve this delivery area.
+- [ ] T654: Testing task 24 - verify, document, or improve this delivery area.
+- [ ] T655: Testing task 25 - verify, document, or improve this delivery area.
+- [ ] T656: Testing task 26 - verify, document, or improve this delivery area.
+- [ ] T657: Testing task 27 - verify, document, or improve this delivery area.
+- [ ] T658: Testing task 28 - verify, document, or improve this delivery area.
+- [ ] T659: Testing task 29 - verify, document, or improve this delivery area.
+- [ ] T660: Testing task 30 - verify, document, or improve this delivery area.
+
+## Quality gates
+
+- [ ] T661: Quality gates task 01 - verify, document, or improve this delivery area.
+- [ ] T662: Quality gates task 02 - verify, document, or improve this delivery area.
+- [ ] T663: Quality gates task 03 - verify, document, or improve this delivery area.
+- [ ] T664: Quality gates task 04 - verify, document, or improve this delivery area.
+- [ ] T665: Quality gates task 05 - verify, document, or improve this delivery area.
+- [ ] T666: Quality gates task 06 - verify, document, or improve this delivery area.
+- [ ] T667: Quality gates task 07 - verify, document, or improve this delivery area.
+- [ ] T668: Quality gates task 08 - verify, document, or improve this delivery area.
+- [ ] T669: Quality gates task 09 - verify, document, or improve this delivery area.
+- [ ] T670: Quality gates task 10 - verify, document, or improve this delivery area.
+- [ ] T671: Quality gates task 11 - verify, document, or improve this delivery area.
+- [ ] T672: Quality gates task 12 - verify, document, or improve this delivery area.
+- [ ] T673: Quality gates task 13 - verify, document, or improve this delivery area.
+- [ ] T674: Quality gates task 14 - verify, document, or improve this delivery area.
+- [ ] T675: Quality gates task 15 - verify, document, or improve this delivery area.
+- [ ] T676: Quality gates task 16 - verify, document, or improve this delivery area.
+- [ ] T677: Quality gates task 17 - verify, document, or improve this delivery area.
+- [ ] T678: Quality gates task 18 - verify, document, or improve this delivery area.
+- [ ] T679: Quality gates task 19 - verify, document, or improve this delivery area.
+- [ ] T680: Quality gates task 20 - verify, document, or improve this delivery area.
+- [ ] T681: Quality gates task 21 - verify, document, or improve this delivery area.
+- [ ] T682: Quality gates task 22 - verify, document, or improve this delivery area.
+- [ ] T683: Quality gates task 23 - verify, document, or improve this delivery area.
+- [ ] T684: Quality gates task 24 - verify, document, or improve this delivery area.
+- [ ] T685: Quality gates task 25 - verify, document, or improve this delivery area.
+- [ ] T686: Quality gates task 26 - verify, document, or improve this delivery area.
+- [ ] T687: Quality gates task 27 - verify, document, or improve this delivery area.
+- [ ] T688: Quality gates task 28 - verify, document, or improve this delivery area.
+- [ ] T689: Quality gates task 29 - verify, document, or improve this delivery area.
+- [ ] T690: Quality gates task 30 - verify, document, or improve this delivery area.
+
+## Documentation
+
+- [ ] T691: Documentation task 01 - verify, document, or improve this delivery area.
+- [ ] T692: Documentation task 02 - verify, document, or improve this delivery area.
+- [ ] T693: Documentation task 03 - verify, document, or improve this delivery area.
+- [ ] T694: Documentation task 04 - verify, document, or improve this delivery area.
+- [ ] T695: Documentation task 05 - verify, document, or improve this delivery area.
+- [ ] T696: Documentation task 06 - verify, document, or improve this delivery area.
+- [ ] T697: Documentation task 07 - verify, document, or improve this delivery area.
+- [ ] T698: Documentation task 08 - verify, document, or improve this delivery area.
+- [ ] T699: Documentation task 09 - verify, document, or improve this delivery area.
+- [ ] T700: Documentation task 10 - verify, document, or improve this delivery area.
+- [ ] T701: Documentation task 11 - verify, document, or improve this delivery area.
+- [ ] T702: Documentation task 12 - verify, document, or improve this delivery area.
+- [ ] T703: Documentation task 13 - verify, document, or improve this delivery area.
+- [ ] T704: Documentation task 14 - verify, document, or improve this delivery area.
+- [ ] T705: Documentation task 15 - verify, document, or improve this delivery area.
+- [ ] T706: Documentation task 16 - verify, document, or improve this delivery area.
+- [ ] T707: Documentation task 17 - verify, document, or improve this delivery area.
+- [ ] T708: Documentation task 18 - verify, document, or improve this delivery area.
+- [ ] T709: Documentation task 19 - verify, document, or improve this delivery area.
+- [ ] T710: Documentation task 20 - verify, document, or improve this delivery area.
+- [ ] T711: Documentation task 21 - verify, document, or improve this delivery area.
+- [ ] T712: Documentation task 22 - verify, document, or improve this delivery area.
+- [ ] T713: Documentation task 23 - verify, document, or improve this delivery area.
+- [ ] T714: Documentation task 24 - verify, document, or improve this delivery area.
+- [ ] T715: Documentation task 25 - verify, document, or improve this delivery area.
+- [ ] T716: Documentation task 26 - verify, document, or improve this delivery area.
+- [ ] T717: Documentation task 27 - verify, document, or improve this delivery area.
+- [ ] T718: Documentation task 28 - verify, document, or improve this delivery area.
+- [ ] T719: Documentation task 29 - verify, document, or improve this delivery area.
+- [ ] T720: Documentation task 30 - verify, document, or improve this delivery area.
+
+## Submission readiness
+
+- [ ] T721: Submission readiness task 01 - verify, document, or improve this delivery area.
+- [ ] T722: Submission readiness task 02 - verify, document, or improve this delivery area.
+- [ ] T723: Submission readiness task 03 - verify, document, or improve this delivery area.
+- [ ] T724: Submission readiness task 04 - verify, document, or improve this delivery area.
+- [ ] T725: Submission readiness task 05 - verify, document, or improve this delivery area.
+- [ ] T726: Submission readiness task 06 - verify, document, or improve this delivery area.
+- [ ] T727: Submission readiness task 07 - verify, document, or improve this delivery area.
+- [ ] T728: Submission readiness task 08 - verify, document, or improve this delivery area.
+- [ ] T729: Submission readiness task 09 - verify, document, or improve this delivery area.
+- [ ] T730: Submission readiness task 10 - verify, document, or improve this delivery area.
+- [ ] T731: Submission readiness task 11 - verify, document, or improve this delivery area.
+- [ ] T732: Submission readiness task 12 - verify, document, or improve this delivery area.
+- [ ] T733: Submission readiness task 13 - verify, document, or improve this delivery area.
+- [ ] T734: Submission readiness task 14 - verify, document, or improve this delivery area.
+- [ ] T735: Submission readiness task 15 - verify, document, or improve this delivery area.
+- [ ] T736: Submission readiness task 16 - verify, document, or improve this delivery area.
+- [ ] T737: Submission readiness task 17 - verify, document, or improve this delivery area.
+- [ ] T738: Submission readiness task 18 - verify, document, or improve this delivery area.
+- [ ] T739: Submission readiness task 19 - verify, document, or improve this delivery area.
+- [ ] T740: Submission readiness task 20 - verify, document, or improve this delivery area.
+- [ ] T741: Submission readiness task 21 - verify, document, or improve this delivery area.
+- [ ] T742: Submission readiness task 22 - verify, document, or improve this delivery area.
+- [ ] T743: Submission readiness task 23 - verify, document, or improve this delivery area.
+- [ ] T744: Submission readiness task 24 - verify, document, or improve this delivery area.
+- [ ] T745: Submission readiness task 25 - verify, document, or improve this delivery area.
+- [ ] T746: Submission readiness task 26 - verify, document, or improve this delivery area.
+- [ ] T747: Submission readiness task 27 - verify, document, or improve this delivery area.
+- [ ] T748: Submission readiness task 28 - verify, document, or improve this delivery area.
+- [ ] T749: Submission readiness task 29 - verify, document, or improve this delivery area.
+- [ ] T750: Submission readiness task 30 - verify, document, or improve this delivery area.
+
+## Git hygiene
+
+- [ ] T751: Git hygiene task 01 - verify, document, or improve this delivery area.
+- [ ] T752: Git hygiene task 02 - verify, document, or improve this delivery area.
+- [ ] T753: Git hygiene task 03 - verify, document, or improve this delivery area.
+- [ ] T754: Git hygiene task 04 - verify, document, or improve this delivery area.
+- [ ] T755: Git hygiene task 05 - verify, document, or improve this delivery area.
+- [ ] T756: Git hygiene task 06 - verify, document, or improve this delivery area.
+- [ ] T757: Git hygiene task 07 - verify, document, or improve this delivery area.
+- [ ] T758: Git hygiene task 08 - verify, document, or improve this delivery area.
+- [ ] T759: Git hygiene task 09 - verify, document, or improve this delivery area.
+- [ ] T760: Git hygiene task 10 - verify, document, or improve this delivery area.
+- [ ] T761: Git hygiene task 11 - verify, document, or improve this delivery area.
+- [ ] T762: Git hygiene task 12 - verify, document, or improve this delivery area.
+- [ ] T763: Git hygiene task 13 - verify, document, or improve this delivery area.
+- [ ] T764: Git hygiene task 14 - verify, document, or improve this delivery area.
+- [ ] T765: Git hygiene task 15 - verify, document, or improve this delivery area.
+- [ ] T766: Git hygiene task 16 - verify, document, or improve this delivery area.
+- [ ] T767: Git hygiene task 17 - verify, document, or improve this delivery area.
+- [ ] T768: Git hygiene task 18 - verify, document, or improve this delivery area.
+- [ ] T769: Git hygiene task 19 - verify, document, or improve this delivery area.
+- [ ] T770: Git hygiene task 20 - verify, document, or improve this delivery area.
+- [ ] T771: Git hygiene task 21 - verify, document, or improve this delivery area.
+- [ ] T772: Git hygiene task 22 - verify, document, or improve this delivery area.
+- [ ] T773: Git hygiene task 23 - verify, document, or improve this delivery area.
+- [ ] T774: Git hygiene task 24 - verify, document, or improve this delivery area.
+- [ ] T775: Git hygiene task 25 - verify, document, or improve this delivery area.
+- [ ] T776: Git hygiene task 26 - verify, document, or improve this delivery area.
+- [ ] T777: Git hygiene task 27 - verify, document, or improve this delivery area.
+- [ ] T778: Git hygiene task 28 - verify, document, or improve this delivery area.
+- [ ] T779: Git hygiene task 29 - verify, document, or improve this delivery area.
+- [ ] T780: Git hygiene task 30 - verify, document, or improve this delivery area.
+
+## Code-size control
+
+- [ ] T781: Code-size control task 01 - verify, document, or improve this delivery area.
+- [ ] T782: Code-size control task 02 - verify, document, or improve this delivery area.
+- [ ] T783: Code-size control task 03 - verify, document, or improve this delivery area.
+- [ ] T784: Code-size control task 04 - verify, document, or improve this delivery area.
+- [ ] T785: Code-size control task 05 - verify, document, or improve this delivery area.
+- [ ] T786: Code-size control task 06 - verify, document, or improve this delivery area.
+- [ ] T787: Code-size control task 07 - verify, document, or improve this delivery area.
+- [ ] T788: Code-size control task 08 - verify, document, or improve this delivery area.
+- [ ] T789: Code-size control task 09 - verify, document, or improve this delivery area.
+- [ ] T790: Code-size control task 10 - verify, document, or improve this delivery area.
+- [ ] T791: Code-size control task 11 - verify, document, or improve this delivery area.
+- [ ] T792: Code-size control task 12 - verify, document, or improve this delivery area.
+- [ ] T793: Code-size control task 13 - verify, document, or improve this delivery area.
+- [ ] T794: Code-size control task 14 - verify, document, or improve this delivery area.
+- [ ] T795: Code-size control task 15 - verify, document, or improve this delivery area.
+- [ ] T796: Code-size control task 16 - verify, document, or improve this delivery area.
+- [ ] T797: Code-size control task 17 - verify, document, or improve this delivery area.
+- [ ] T798: Code-size control task 18 - verify, document, or improve this delivery area.
+- [ ] T799: Code-size control task 19 - verify, document, or improve this delivery area.
+- [ ] T800: Code-size control task 20 - verify, document, or improve this delivery area.
+- [ ] T801: Code-size control task 21 - verify, document, or improve this delivery area.
+- [ ] T802: Code-size control task 22 - verify, document, or improve this delivery area.
+- [ ] T803: Code-size control task 23 - verify, document, or improve this delivery area.
+- [ ] T804: Code-size control task 24 - verify, document, or improve this delivery area.
+- [ ] T805: Code-size control task 25 - verify, document, or improve this delivery area.
+- [ ] T806: Code-size control task 26 - verify, document, or improve this delivery area.
+- [ ] T807: Code-size control task 27 - verify, document, or improve this delivery area.
+- [ ] T808: Code-size control task 28 - verify, document, or improve this delivery area.
+- [ ] T809: Code-size control task 29 - verify, document, or improve this delivery area.
+- [ ] T810: Code-size control task 30 - verify, document, or improve this delivery area.
+
+## Future live-agent mode
+
+- [ ] T811: Future live-agent mode task 01 - verify, document, or improve this delivery area.
+- [ ] T812: Future live-agent mode task 02 - verify, document, or improve this delivery area.
+- [ ] T813: Future live-agent mode task 03 - verify, document, or improve this delivery area.
+- [ ] T814: Future live-agent mode task 04 - verify, document, or improve this delivery area.
+- [ ] T815: Future live-agent mode task 05 - verify, document, or improve this delivery area.
+- [ ] T816: Future live-agent mode task 06 - verify, document, or improve this delivery area.
+- [ ] T817: Future live-agent mode task 07 - verify, document, or improve this delivery area.
+- [ ] T818: Future live-agent mode task 08 - verify, document, or improve this delivery area.
+- [ ] T819: Future live-agent mode task 09 - verify, document, or improve this delivery area.
+- [ ] T820: Future live-agent mode task 10 - verify, document, or improve this delivery area.
+- [ ] T821: Future live-agent mode task 11 - verify, document, or improve this delivery area.
+- [ ] T822: Future live-agent mode task 12 - verify, document, or improve this delivery area.
+- [ ] T823: Future live-agent mode task 13 - verify, document, or improve this delivery area.
+- [ ] T824: Future live-agent mode task 14 - verify, document, or improve this delivery area.
+- [ ] T825: Future live-agent mode task 15 - verify, document, or improve this delivery area.
+- [ ] T826: Future live-agent mode task 16 - verify, document, or improve this delivery area.
+- [ ] T827: Future live-agent mode task 17 - verify, document, or improve this delivery area.
+- [ ] T828: Future live-agent mode task 18 - verify, document, or improve this delivery area.
+- [ ] T829: Future live-agent mode task 19 - verify, document, or improve this delivery area.
+- [ ] T830: Future live-agent mode task 20 - verify, document, or improve this delivery area.
+- [ ] T831: Future live-agent mode task 21 - verify, document, or improve this delivery area.
+- [ ] T832: Future live-agent mode task 22 - verify, document, or improve this delivery area.
+- [ ] T833: Future live-agent mode task 23 - verify, document, or improve this delivery area.
+- [ ] T834: Future live-agent mode task 24 - verify, document, or improve this delivery area.
+- [ ] T835: Future live-agent mode task 25 - verify, document, or improve this delivery area.
+- [ ] T836: Future live-agent mode task 26 - verify, document, or improve this delivery area.
+- [ ] T837: Future live-agent mode task 27 - verify, document, or improve this delivery area.
+- [ ] T838: Future live-agent mode task 28 - verify, document, or improve this delivery area.
+- [ ] T839: Future live-agent mode task 29 - verify, document, or improve this delivery area.
+- [ ] T840: Future live-agent mode task 30 - verify, document, or improve this delivery area.
+
+## Reviewer experience
+
+- [ ] T841: Reviewer experience task 01 - verify, document, or improve this delivery area.
+- [ ] T842: Reviewer experience task 02 - verify, document, or improve this delivery area.
+- [ ] T843: Reviewer experience task 03 - verify, document, or improve this delivery area.
+- [ ] T844: Reviewer experience task 04 - verify, document, or improve this delivery area.
+- [ ] T845: Reviewer experience task 05 - verify, document, or improve this delivery area.
+- [ ] T846: Reviewer experience task 06 - verify, document, or improve this delivery area.
+- [ ] T847: Reviewer experience task 07 - verify, document, or improve this delivery area.
+- [ ] T848: Reviewer experience task 08 - verify, document, or improve this delivery area.
+- [ ] T849: Reviewer experience task 09 - verify, document, or improve this delivery area.
+- [ ] T850: Reviewer experience task 10 - verify, document, or improve this delivery area.
+- [ ] T851: Reviewer experience task 11 - verify, document, or improve this delivery area.
+- [ ] T852: Reviewer experience task 12 - verify, document, or improve this delivery area.
+- [ ] T853: Reviewer experience task 13 - verify, document, or improve this delivery area.
+- [ ] T854: Reviewer experience task 14 - verify, document, or improve this delivery area.
+- [ ] T855: Reviewer experience task 15 - verify, document, or improve this delivery area.
+- [ ] T856: Reviewer experience task 16 - verify, document, or improve this delivery area.
+- [ ] T857: Reviewer experience task 17 - verify, document, or improve this delivery area.
+- [ ] T858: Reviewer experience task 18 - verify, document, or improve this delivery area.
+- [ ] T859: Reviewer experience task 19 - verify, document, or improve this delivery area.
+- [ ] T860: Reviewer experience task 20 - verify, document, or improve this delivery area.
+- [ ] T861: Reviewer experience task 21 - verify, document, or improve this delivery area.
+- [ ] T862: Reviewer experience task 22 - verify, document, or improve this delivery area.
+- [ ] T863: Reviewer experience task 23 - verify, document, or improve this delivery area.
+- [ ] T864: Reviewer experience task 24 - verify, document, or improve this delivery area.
+- [ ] T865: Reviewer experience task 25 - verify, document, or improve this delivery area.
+- [ ] T866: Reviewer experience task 26 - verify, document, or improve this delivery area.
+- [ ] T867: Reviewer experience task 27 - verify, document, or improve this delivery area.
+- [ ] T868: Reviewer experience task 28 - verify, document, or improve this delivery area.
+- [ ] T869: Reviewer experience task 29 - verify, document, or improve this delivery area.
+- [ ] T870: Reviewer experience task 30 - verify, document, or improve this delivery area.
+
+## Final packaging
+
+- [ ] T871: Final packaging task 01 - verify, document, or improve this delivery area.
+- [ ] T872: Final packaging task 02 - verify, document, or improve this delivery area.
+- [ ] T873: Final packaging task 03 - verify, document, or improve this delivery area.
+- [ ] T874: Final packaging task 04 - verify, document, or improve this delivery area.
+- [ ] T875: Final packaging task 05 - verify, document, or improve this delivery area.
+- [ ] T876: Final packaging task 06 - verify, document, or improve this delivery area.
+- [ ] T877: Final packaging task 07 - verify, document, or improve this delivery area.
+- [ ] T878: Final packaging task 08 - verify, document, or improve this delivery area.
+- [ ] T879: Final packaging task 09 - verify, document, or improve this delivery area.
+- [ ] T880: Final packaging task 10 - verify, document, or improve this delivery area.
+- [ ] T881: Final packaging task 11 - verify, document, or improve this delivery area.
+- [ ] T882: Final packaging task 12 - verify, document, or improve this delivery area.
+- [ ] T883: Final packaging task 13 - verify, document, or improve this delivery area.
+- [ ] T884: Final packaging task 14 - verify, document, or improve this delivery area.
+- [ ] T885: Final packaging task 15 - verify, document, or improve this delivery area.
+- [ ] T886: Final packaging task 16 - verify, document, or improve this delivery area.
+- [ ] T887: Final packaging task 17 - verify, document, or improve this delivery area.
+- [ ] T888: Final packaging task 18 - verify, document, or improve this delivery area.
+- [ ] T889: Final packaging task 19 - verify, document, or improve this delivery area.
+- [ ] T890: Final packaging task 20 - verify, document, or improve this delivery area.
+- [ ] T891: Final packaging task 21 - verify, document, or improve this delivery area.
+- [ ] T892: Final packaging task 22 - verify, document, or improve this delivery area.
+- [ ] T893: Final packaging task 23 - verify, document, or improve this delivery area.
+- [ ] T894: Final packaging task 24 - verify, document, or improve this delivery area.
+- [ ] T895: Final packaging task 25 - verify, document, or improve this delivery area.
+- [ ] T896: Final packaging task 26 - verify, document, or improve this delivery area.
+- [ ] T897: Final packaging task 27 - verify, document, or improve this delivery area.
+- [ ] T898: Final packaging task 28 - verify, document, or improve this delivery area.
+- [ ] T899: Final packaging task 29 - verify, document, or improve this delivery area.
+- [ ] T900: Final packaging task 30 - verify, document, or improve this delivery area.
