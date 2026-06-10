@@ -73,3 +73,13 @@ Primary users are the course reviewers who need to inspect the final PDF and the
 - Bad generated LaTeX: sanitize code fences, markdown links, unbalanced lists, generated document wrappers, generated preambles, nested bibliographies, mojibake blocks, and unsafe table characters.
 - Sparse or repetitive pages: instruct agents to produce section-specific research prose and validate the final PDF page count and readability.
 - BiDi layout errors: use Polyglossia Hebrew support and real right-to-left text environments.
+
+## Delivered Results
+
+- The current online-generated topic is **AI Agents for Early Detection of Mental Health Crises Using Multimodal Data**.
+- The canonical PDF is `output/agentic_ai_production_2026.pdf`.
+- A topic-specific PDF copy is `output/AI_Agents_for_Early_Detection_of_Mental_Health_Crises_Using_Multimodal_Data.pdf`.
+- The latest successful LaTeX log reports `Output written on main.pdf (15 pages, 261859 bytes)`.
+- A terminal execution screenshot is included at `output/imgs/terminal-output.png` and referenced from the README.
+- `pytest` passes with the current package layout.
+- The largest submitted Python source file is below the 150-line limit.

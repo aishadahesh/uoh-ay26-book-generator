@@ -86,3 +86,11 @@ The build script uses direct `lualatex` or `xelatex`. This avoids the MiKTeX iss
 - Hebrew text is right-to-left and remains actual extractable PDF text.
 - Numeric references appear clearly in the bibliography.
 - README, PRD, PLAN, TODO, LaTeX source, generated article, and final PDF are present.
+
+## Current Implementation Evidence
+
+The implementation has been exercised with a custom terminal topic: **AI Agents for Early Detection of Mental Health Crises Using Multimodal Data**. The generated LaTeX body is stored in `latex/chapters/online_article.tex`, the canonical PDF is stored in `output/agentic_ai_production_2026.pdf`, and a topic-specific copy is stored in `output/AI_Agents_for_Early_Detection_of_Mental_Health_Crises_Using_Multimodal_Data.pdf`.
+
+The README includes `output/imgs/terminal-output.png` as evidence of the terminal run. The latest local build reports 15 pages. The build script now skips `biber` unless `main.bcf` exists, preventing a misleading `Cannot find main.bcf` message for this non-`biblatex` article template.
+
+The TODO backlog has been updated so completed implementation areas are checked while future or optional work remains open.
