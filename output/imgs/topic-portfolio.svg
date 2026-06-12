@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Eight creative CrewAI and LaTeX topic outputs">
+  <rect width="1200" height="900" fill="#f7f8fb"/>
+  <rect x="0" y="0" width="1200" height="150" fill="#ffffff"/>
+  <text x="70" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#182033">Creative Topic Portfolio</text>
+  <text x="72" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#536174">Eight ready-to-run CrewAI + LaTeX publication directions</text>
+  <text x="930" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#2f80ed">article / book</text>
+  <text x="930" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#27ae60">English / Hebrew</text>
+
+  <g transform="translate(70 180)">
+    <rect width="500" height="145" rx="16" fill="#ffffff" stroke="#d8dde8"/>
+    <circle cx="52" cy="50" r="25" fill="#f05d5e"/>
+    <text x="92" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#182033">Food Article</text>
+    <text x="92" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#536174">Hebrew | cultural memory | family recipes</text>
+    <text x="32" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#182033">AI as a guardian of disappearing kitchen knowledge.</text>
+  </g>
+
+  <g transform="translate(630 180)">
+    <rect width="500" height="145" rx="16" fill="#ffffff" stroke="#d8dde8"/>
+    <circle cx="52" cy="50" r="25" fill="#2f80ed"/>
+    <text x="92" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#182033">Computer Science Article</text>
+    <text x="92" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#536174">English | technical debt | self-healing repos</text>
+    <text x="32" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#182033">Agents detect, explain, patch, and verify code risk.</text>
+  </g>
+
+  <g transform="translate(70 350)">
+    <rect width="500" height="145" rx="16" fill="#ffffff" stroke="#d8dde8"/>
+    <circle cx="52" cy="50" r="25" fill="#9b51e0"/>
+    <text x="92" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#182033">Fashion Book</text>
+    <text x="92" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#536174">Hebrew | identity | sustainability | style agents</text>
+    <text x="32" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#182033">A wardrobe as a data system of culture and ethics.</text>
+  </g>
+
+  <g transform="translate(630 350)">
+    <rect width="500" height="145" rx="16" fill="#ffffff" stroke="#d8dde8"/>
+    <circle cx="52" cy="50" r="25" fill="#27ae60"/>
+    <text x="92" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#182033">Sports Book</text>
+    <text x="92" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#536174">English | analytics | fan emotion | global sport</text>
+    <text x="32" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#182033">The stadium as a human-data experience.</text>
+  </g>
+
+  <g transform="translate(70 520)">
+    <rect width="500" height="145" rx="16" fill="#ffffff" stroke="#d8dde8"/>
+    <circle cx="52" cy="50" r="25" fill="#ff8a3d"/>
+    <text x="92" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#182033">Fast Fashion Book</text>
+    <text x="92" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#536174">Hebrew | ethical agents | RTL tables | slow fashion</text>
+    <text x="32" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#182033">Can AI make fast fashion slower and smarter?</text>
+  </g>
+
+  <g transform="translate(630 520)">
+    <rect width="500" height="145" rx="16" fill="#ffffff" stroke="#d8dde8"/>
+    <circle cx="52" cy="50" r="25" fill="#00a6a6"/>
+    <text x="92" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#182033">World Cup 2026 Book</text>
+    <text x="92" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#536174">Hebrew | underdogs | football analytics | fans</text>
+    <text x="32" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#182033">Underdog stories through AI, tactics, and emotion.</text>
+  </g>
+
+  <g transform="translate(70 690)">
+    <rect width="500" height="145" rx="16" fill="#ffffff" stroke="#d8dde8"/>
+    <circle cx="52" cy="50" r="25" fill="#e056fd"/>
+    <text x="92" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#182033">Hairstyles Article</text>
+    <text x="92" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#536174">English | identity | salon AI | texture justice</text>
+    <text x="32" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#182033">The algorithmic mirror meets hair, culture, and care.</text>
+  </g>
+
+  <g transform="translate(630 690)">
+    <rect width="500" height="145" rx="16" fill="#ffffff" stroke="#d8dde8"/>
+    <circle cx="52" cy="50" r="25" fill="#6c5ce7"/>
+    <text x="92" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#182033">Healthcare Article</text>
+    <text x="92" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#536174">English | early detection | workflow | oversight</text>
+    <text x="32" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#182033">Agents as governed helpers in clinical orchestration.</text>
+  </g>
+</svg>
