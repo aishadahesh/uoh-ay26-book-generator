@@ -227,6 +227,61 @@ uoh-ay26-book-generator/
 
 ## ⚙️ Implementation Highlights
 
+### Frameworks and Technical Workflow
+
+The project follows the technical workflow recommended for the assignment: use CrewAI to generate structured publication content, keep Markdown-style planning artifacts in `docs/`, convert the generated body into a controlled LaTeX project, and compile the final PDF with a Unicode-aware LaTeX engine.
+
+| Layer | Framework / Tool | Role in the project |
+|---|---|---|
+| Agent orchestration | CrewAI | Defines planner, researcher, writer, LaTeX engineer, and QA reviewer agents |
+| Online LLM provider | Gemini or OpenAI | Generates the research article/book content through configured API keys |
+| Runtime language | Python | Coordinates prompts, model calls, sanitization, file generation, PDF builds, and validation |
+| Publication system | LaTeX | Owns the professional document shell, title page, abstract, typography, tables, figures, formulas, and references |
+| PDF compiler | LuaLaTeX / XeLaTeX | Builds Unicode and Hebrew-capable PDFs without requiring `latexmk` or Perl |
+| BiDi support | `fontspec`, `polyglossia`, `luabidi` | Renders Hebrew/English text as real selectable text with correct directionality |
+| Visual evidence | Generated PNG/SVG assets | Shows architecture, terminal execution, agent sequence, and topic portfolio |
+| Quality checks | pytest, page-count parsing, duplicate-paragraph guard | Verifies basic package behavior, 15-page outputs, and non-repeated content |
+
+The implementation also follows the recommended technical workflow from the lecture notes:
+
+| Lecture recommendation | Used here? | Evidence |
+|---|---|---|
+| Use CrewAI as the content-generation agent framework | Yes | `crewai_agents.py`, `crewai_tasks.py`, `crewai_pipeline.py`, and `scripts/generate_online.py` |
+| Start from Markdown planning/review artifacts, then produce LaTeX | Yes | `docs/PRD.md`, `docs/PLAN.md`, `docs/TODO.md`, and topic briefs under `docs/topic_ideas/` |
+| Keep a real LaTeX project folder | Yes | `latex/main_template.tex`, `latex/main.tex`, `latex/chapters/online_article.tex`, `latex/assets/` |
+| Compile with LuaLaTeX or XeLaTeX, especially for Hebrew | Yes | `scripts/build.py` searches for `lualatex`/`xelatex`; LuaLaTeX is used for the verified builds |
+| Avoid relying on `latexmk` when MiKTeX/Perl is fragile | Yes | The build script calls the compiler directly and avoids the Perl requirement |
+| Use bibliography/reference files and numeric references | Yes | `latex/references.bib` is retained and the generated papers use numeric reference style in the PDF |
+| Run several compilation passes | Yes | `scripts/build.py` performs repeated compiler passes so ToC/references stabilize |
+| Include graphics | Yes | Generated PNG/SVG assets are included under `latex/assets/` and `output/imgs/` |
+| Include mathematical notation/formulas | Yes | Generated documents include formula sections such as the responsibility/readiness score |
+| Handle Hebrew/English BiDi as real text, not images | Yes | `fontspec`, `polyglossia`, `luabidi`, live Hebrew text, and RTL table sanitization |
+
+One implementation choice differs slightly from the lecture suggestion: instead of relying mainly on TikZ for block graphics, this project uses generated PNG/SVG assets. The goal is the same, though: the PDF contains inspectable visual evidence rather than plain text only.
+
+The practical flow is:
+
+```text
+User chooses topic + language + article/book style
+        |
+        v
+CrewAI agents plan, research, write, format, and review
+        |
+        v
+Python sanitizes generated LaTeX and applies document options
+        |
+        v
+LaTeX template builds title page, abstract, optional ToC, body, assets, references
+        |
+        v
+LuaLaTeX/XeLaTeX compiles the PDF and Python saves named output copies
+        |
+        v
+Validation checks page count, repeated content, file structure, and documentation
+```
+
+This architecture keeps the generated prose flexible while making the publication layer stable. CrewAI can change the topic and argument, but the LaTeX template controls the professional document behavior that reviewers care about.
+
 ### Real Online CrewAI Flow
 
 The central executable is `scripts/generate_online.py`. It is intentionally small and orchestration-focused: it loads environment variables, chooses the topic, asks for article/book style, asks for English/Hebrew output language, calls the CrewAI pipeline, sanitizes the returned LaTeX body, writes the LaTeX project files, starts the PDF build, and creates named PDF copies when the build succeeds.
