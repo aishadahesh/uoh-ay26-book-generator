@@ -1,8 +1,8 @@
-# PRD - Online CrewAI and LaTeX Article Generator
+﻿# PRD - Online CrewAI and LaTeX Publication Generator
 
 ## Executive Summary
 
-This product is a complete Assignment 03 submission package. It uses a real online CrewAI workflow to generate a research-style article and a LaTeX build pipeline to produce the final PDF. The repository demonstrates both the required final artifact and the professional engineering process behind it: requirements, planning, modular code, environment setup, traceable outputs, and reviewer-facing documentation.
+This product is a complete Assignment 03 submission package. It uses a real online CrewAI workflow to generate a research-style article or book and a LaTeX build pipeline to produce the final PDF. The repository demonstrates both the required final artifact and the professional engineering process behind it: requirements, planning, modular code, environment setup, traceable outputs, and reviewer-facing documentation.
 
 ## Problem Statement
 
@@ -12,12 +12,15 @@ A single prompt can produce fluent text, but it does not prove that the student 
 
 - Generate an approximately 15-page research-style article through online CrewAI agents.
 - Compile the article into PDF through a real LaTeX project.
-- Prompt the user in the terminal for the article topic so the workflow is demonstrable.
+- Prompt the user in the terminal for topic, article/book style, and English/Hebrew output language so the workflow is demonstrable.
 - Support Gemini as the primary configured provider and OpenAI as an alternate provider.
 - Keep Python source files below 150 lines.
 - Include root README plus `docs/PRD.md`, `docs/PLAN.md`, and `docs/TODO.md`.
 - Include a 900-task professional TODO backlog.
-- Render Hebrew/English BiDi text as live text, not as an image.
+- Render Hebrew/English BiDi text as live text, not as an image; English outputs include a Hebrew BiDi section and Hebrew outputs include an English BiDi section.
+- Organize Hebrew-mode tables right-to-left, including right-aligned cells and reversed visual column order.
+- Localize Hebrew-mode cover metadata, including author names, course name, assignment number, lecturer name, university, and date.
+- Provide creative ready-to-run topic briefs in sports, computer science, food, fashion, fast fashion, World Cup 2026, hairstyles, and healthcare.
 - Produce a PDF with dense readable pages, numeric references, figures, table, formula, and no repeated filler.
 
 ## Non-Goals
@@ -37,30 +40,36 @@ Primary users are the course reviewers who need to inspect the final PDF and the
 1. The system shall define separate CrewAI agents for planning, research, writing, LaTeX engineering, and QA.
 2. The system shall run those agents through CrewAI `Crew`, `Task`, `Agent`, `Process.sequential`, and `LLM` objects.
 3. The system shall load model configuration from `.env`.
-4. The system shall prompt the terminal user for the article topic when no command-line topic is supplied.
+4. The system shall prompt the terminal user for the topic, document style, and output language when running interactively.
 5. The system shall support `LLM_PROVIDER=gemini` and `LLM_PROVIDER=openai`.
 6. The system shall try configured fallback Gemini models after transient provider failures.
 7. The system shall write generated article content to `latex/chapters/online_article.tex`.
-8. The system shall build `latex/main.tex` from `latex/main_template.tex`.
+8. The system shall build `latex/main.tex` from `latex/main_template.tex` with cover page, abstract page, table of contents, headers/footers, localized cover metadata, and language-aware placeholders.
 9. The system shall sanitize generated LaTeX before compilation.
 10. The system shall compile the PDF with direct `lualatex` or `xelatex`.
-11. The system shall place the canonical final PDF under `output/` and may keep topic-specific PDF copies there as generated artifacts.
-12. The system shall keep submitted Python files below 150 lines.
-13. The system shall provide PRD, PLAN, TODO, README, LaTeX source, code, and output PDF.
+11. The system shall place the canonical final PDF under `output/`.
+12. After an online generation, the system shall save both a stable topic/style/language PDF copy and a timestamped run PDF copy.
+13. The system shall keep submitted Python files below 150 lines.
+14. The system shall provide PRD, PLAN, TODO, README, LaTeX source, code, and output PDF.
+15. The system shall support `DOCUMENT_STYLE=article|book` and `OUTPUT_LANGUAGE=english|hebrew` for non-interactive runs.
 
 ## Acceptance Criteria
 
 - `README.md` exists at repository root and explains the online CrewAI workflow.
 - `docs/PRD.md`, `docs/PLAN.md`, and `docs/TODO.md` exist.
 - `docs/TODO.md` contains 800-1000 tasks; the current backlog contains 900.
-- `scripts/generate_online.py` asks for a topic in an interactive terminal.
-- `scripts/generate_online.py "Custom Topic"` bypasses the prompt and uses the supplied topic.
+- `scripts/generate_online.py` asks for a topic, style, and language in an interactive terminal.
+- `scripts/generate_online.py "Custom Topic"` bypasses only the topic prompt; `DOCUMENT_STYLE` and `OUTPUT_LANGUAGE` can drive non-interactive style/language choices.
 - The online flow calls CrewAI agents rather than only a direct model prompt.
 - `latex/main_template.tex` defines the publication shell.
 - `latex/chapters/online_article.tex` contains the generated article body.
 - `output/agentic_ai_production_2026.pdf` is generated by the code path.
-- The final PDF is approximately 15 pages; the current custom-topic mental-health-crisis build is 15 pages after online generation.
-- Hebrew text is right-aligned and extractable as text.
+- Online generation also saves named copies using the pattern `output/<topic>_<style>_<language>.pdf` and `output/<topic>_<style>_<language>_YYYYMMDD_HHMMSS.pdf`.
+- The four required portfolio PDFs are exactly 15 pages each; the manifest is `output/portfolio_page_counts.md`.
+- The current Hebrew book PDF is 15 pages and includes cover page, abstract page, linked table of contents, body, figures, table, formula, BiDi text, and numeric references. Article mode intentionally omits the table of contents.
+- Hebrew book/article title pages use Hebrew labels for the authors, course, assignment, lecturer, university, and date.
+- Hebrew text is right-aligned and extractable as text; Hebrew-mode tables follow right-to-left visual order even when the model emits compact one-line LaTeX tables.
+- Eight creative topic briefs plus a topic index exist under `docs/topic_ideas/`.
 - References are numeric and ordered.
 - No submitted `.py` file exceeds 150 lines.
 
@@ -71,15 +80,19 @@ Primary users are the course reviewers who need to inspect the final PDF and the
 - Old Python environment: create `.venv-crewai` with Python 3.12 because modern CrewAI requires Python 3.10-3.13.
 - Missing Perl for `latexmk`: use direct LuaLaTeX/XeLaTeX in `scripts/build.py`.
 - Bad generated LaTeX: sanitize code fences, markdown links, unbalanced lists, generated document wrappers, generated preambles, nested bibliographies, mojibake blocks, and unsafe table characters.
-- Sparse or repetitive pages: instruct agents to produce section-specific research prose and validate the final PDF page count and readability.
-- BiDi layout errors: use Polyglossia Hebrew support and real right-to-left text environments.
+- Sparse or repetitive pages: instruct agents to produce dense, section-specific research prose and validate the final PDF page count and readability. Extension content must flow naturally in LaTeX, must use topic-specific aspects, lenses, contexts, and micro-cases, and must not use manual page breaks or repeated paragraphs to stretch short output.
+- BiDi layout errors: use Polyglossia Hebrew support, real right-to-left text environments, and RTL table column ordering for Hebrew output.
 
 ## Delivered Results
 
-- The current online-generated topic is **AI Agents for Early Detection of Mental Health Crises Using Multimodal Data**.
+- The latest verified online-generated topic is **The Algorithmic Closet: Can AI Agents Make Fast Fashion Slower, Smarter, and More Ethical?**.
 - The canonical PDF is `output/agentic_ai_production_2026.pdf`.
-- A topic-specific PDF copy is `output/AI_Agents_for_Early_Detection_of_Mental_Health_Crises_Using_Multimodal_Data.pdf`.
-- The latest successful LaTeX log reports `Output written on main.pdf (15 pages, 261859 bytes)`.
-- A terminal execution screenshot is included at `output/imgs/terminal-output.png` and referenced from the README.
+- Four requested topic outputs are present under `output/`: a Hebrew food article, an English computer-science article, a Hebrew fashion book, and an English sports book.
+- The current topic-specific copy is `output/The_Algorithmic_Closet_Can_AI_Agents_Make_Fast_Fashion_Slower_Smarter_an_book_hebrew.pdf`.
+- The current timestamped archive copy is `output/The_Algorithmic_Closet_Can_AI_Agents_Make_Fast_Fashion_Slower_Smarter_an_book_hebrew_20260612_201412.pdf`.
+- A previous topic-specific PDF copy is `output/World_Cup_2026_Underdog_Stories_book_hebrew.pdf`.
+- The latest successful LaTeX log reports `Output written on main.pdf (15 pages, 233878 bytes)`.
+- Terminal execution screenshots are included at `output/imgs/terminal-output.png` and `output/imgs/agent_1.png` through `output/imgs/agent_5.png`, all referenced from the README.
+- The README uses generated visual assets and a more expressive reviewer-facing structure to explain the assignment, implementation, results, and tested topics.
 - `pytest` passes with the current package layout.
 - The largest submitted Python source file is below the 150-line limit.
