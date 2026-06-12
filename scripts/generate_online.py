@@ -1,9 +1,11 @@
 from pathlib import Path
 import os
-import re
-import shutil
 import subprocess
 import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
 
 if sys.version_info < (3, 10):
     print(
@@ -25,75 +27,109 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from book_generator.crewai_pipeline import run_article_crew
+from book_generator.document_options import (
+    DocumentOptions,
+    adapt_body_for_style,
+    bidi_section,
+    normalize_choice,
+)
 from book_generator.latex_sanitizer import sanitize_latex_body
+from book_generator.latex_project import write_latex_project
+from book_generator.page_count import read_pdf_pages
+from book_generator.page_expander import expansion_count, expansion_pages
+from book_generator.page_limiter import trim_to_page_limit
+from book_generator.pdf_outputs import copy_named_outputs
 
 CHAPTER = ROOT / "latex" / "chapters" / "online_article.tex"
 MAIN = ROOT / "latex" / "main.tex"
 TEMPLATE = ROOT / "latex" / "main_template.tex"
 CANONICAL_PDF = ROOT / "output" / "agentic_ai_production_2026.pdf"
 
-HEBREW_SECTION = r"""\section{Bilingual BiDi Demonstration}
-\begin{hebrew}
-\begin{flushright}
-עמוד זה מדגים שילוב אמיתי של עברית ואנגלית בתוך מסמך LaTeX. הטקסט מיושר לימין ונשמר כטקסט חי, לא כתמונה.
-\end{flushright}
-\end{hebrew}
-"""
+
+def ask_choice(prompt: str, default: str, allowed: tuple[str, ...]) -> str:
+    try:
+        answer = input(f"{prompt} [{default}]: ").strip() if sys.stdin.isatty() else ""
+    except EOFError:
+        answer = ""
+    return normalize_choice(answer or default, allowed, default)
 
 
-def choose_topic() -> str:
-    default = os.getenv("ARTICLE_TOPIC", "Production-Ready AI Agent Architecture in 2026")
-    if len(sys.argv) > 1:
-        return " ".join(sys.argv[1:]).strip() or default
+def choose_options() -> DocumentOptions:
+    default_topic = os.getenv("ARTICLE_TOPIC", "Production-Ready AI Agent Architecture in 2026")
+    topic = " ".join(sys.argv[1:]).strip() if len(sys.argv) > 1 else ""
+    style = normalize_choice(os.getenv("DOCUMENT_STYLE", "article"), ("article", "book"), "article")
+    language = normalize_choice(os.getenv("OUTPUT_LANGUAGE", "english"), ("english", "hebrew"), "english")
     if sys.stdin.isatty():
-        print("\nCrewAI article generation")
-        print(f"Default topic: {default}")
-        answer = input("Enter article topic, or press Enter to use the default: ").strip()
-        return answer or default
-    return default
+        print("\nCrewAI LaTeX generation")
+        print(f"Default topic: {default_topic}")
+        if not topic:
+            try:
+                topic = input("Enter topic, or press Enter to use the default: ").strip()
+            except EOFError:
+                topic = ""
+        style = ask_choice("Choose document style: article or book", style, ("article", "book"))
+        language = ask_choice("Choose output language: english or hebrew", language, ("english", "hebrew"))
+    return DocumentOptions(topic or default_topic, style, language)
 
 
-def clean_article(article: str) -> str:
+def clean_article(article: str, options: DocumentOptions) -> str:
     article = article.replace("```latex", "").replace("```", "").strip()
     article = sanitize_latex_body(article)
-    if "\\begin{hebrew}" not in article:
-        article += "\n\n" + HEBREW_SECTION
-    return article
+    if "Bilingual BiDi Demonstration" not in article:
+        article += "\n\n" + bidi_section(options.output_language)
+    return adapt_body_for_style(article, options.document_style)
 
 
-def write_latex_project(topic: str, article: str) -> None:
-    CHAPTER.write_text(article + "\n", encoding="utf-8")
-    template = TEMPLATE.read_text(encoding="utf-8")
-    MAIN.write_text(template.replace("<<ARTICLE_TITLE>>", topic), encoding="utf-8")
+def copy_topic_pdf(options: DocumentOptions) -> None:
+    targets = copy_named_outputs(
+        CANONICAL_PDF,
+        options.topic,
+        options.document_style,
+        options.output_language,
+    )
+    for target in targets:
+        print(f"Wrote named output: {target}")
 
 
-def copy_topic_pdf(topic: str) -> None:
-    if not CANONICAL_PDF.exists():
-        return
-    slug = re.sub(r"[^A-Za-z0-9]+", "_", topic).strip("_") or "article"
-    target = CANONICAL_PDF.with_name(slug[:80] + ".pdf")
-    if target != CANONICAL_PDF:
-        shutil.copyfile(CANONICAL_PDF, target)
-        print(f"Wrote topic copy: {target}")
+def build_pdf(options: DocumentOptions, article: str) -> int:
+    added = 0
+    for _ in range(4):
+        write_latex_project(CHAPTER, MAIN, TEMPLATE, options, article)
+        code = subprocess.call([sys.executable, str(ROOT / "scripts" / "build.py")], cwd=ROOT)
+        pages = read_pdf_pages(ROOT / "latex" / "main.log")
+        if code != 0:
+            return code
+        if pages > 15:
+            paths = (CHAPTER, MAIN, TEMPLATE, ROOT)
+            article, pages, code = trim_to_page_limit(
+                options, article, paths, write_latex_project, read_pdf_pages
+            )
+            if code != 0:
+                return code
+        if pages == 15:
+            return 0
+        missing = 15 - pages
+        article += expansion_pages(options, missing, added)
+        added += expansion_count(missing)
+    return 5
 
 
 def main() -> int:
     if load_dotenv:
         load_dotenv(ROOT / ".env")
-    topic = choose_topic()
-    print(f"Generating article topic: {topic}")
+    options = choose_options()
+    print(f"Generating {options.output_language} {options.document_style}: {options.topic}")
     try:
-        article = clean_article(run_article_crew(topic).strip())
+        article = clean_article(run_article_crew(options).strip(), options)
     except Exception as exc:
         print(f"CrewAI online generation failed: {exc}", file=sys.stderr)
         return 2
-    if "\\section" not in article:
-        print("CrewAI did not return LaTeX section content.", file=sys.stderr)
+    if "\\section" not in article and "\\chapter" not in article:
+        print("CrewAI did not return LaTeX section/chapter content.", file=sys.stderr)
         return 3
-    write_latex_project(topic, article)
-    code = subprocess.call([sys.executable, str(ROOT / "scripts" / "build.py")], cwd=ROOT)
+    code = build_pdf(options, article)
     if code == 0:
-        copy_topic_pdf(topic)
+        copy_topic_pdf(options)
     return code
 
 

@@ -1,11 +1,11 @@
-﻿import os
+import os
 
 from book_generator.crewai_agents import create_agents
 from book_generator.crewai_llm import build_llm, provider_models
 from book_generator.crewai_tasks import create_tasks
 
 
-def run_article_crew(topic: str) -> str:
+def run_article_crew(options) -> str:
     os.environ.setdefault("CREWAI_TRACING_ENABLED", "false")
     try:
         from crewai import Crew, Process
@@ -18,7 +18,7 @@ def run_article_crew(topic: str) -> str:
             print(f"Running CrewAI with {provider} model: {model or 'default'}")
             llm = build_llm(provider, model)
             agents = create_agents(llm)
-            tasks = create_tasks(topic, agents)
+            tasks = create_tasks(options, agents)
             crew = Crew(
                 agents=list(agents),
                 tasks=tasks,
@@ -26,7 +26,7 @@ def run_article_crew(topic: str) -> str:
                 verbose=True,
                 memory=False,
             )
-            return _result_text(crew.kickoff(inputs={"topic": topic}))
+            return _result_text(crew.kickoff(inputs={"topic": options.topic}))
         except Exception as exc:
             last_error = exc
             print(f"CrewAI model {model or 'default'} failed: {exc}")
