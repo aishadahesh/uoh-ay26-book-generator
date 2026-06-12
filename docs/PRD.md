@@ -89,8 +89,8 @@ Primary users are the course reviewers who need to inspect the final PDF and the
 - The canonical PDF is `output/agentic_ai_production_2026.pdf`.
 - Four requested topic outputs are present under `output/`: a Hebrew food article, an English computer-science article, a Hebrew fashion book, and an English sports book.
 - The current topic-specific copy is `output/The_Algorithmic_Closet_Can_AI_Agents_Make_Fast_Fashion_Slower_Smarter_an_book_hebrew.pdf`.
-- The current timestamped archive copy is `output/The_Algorithmic_Closet_Can_AI_Agents_Make_Fast_Fashion_Slower_Smarter_an_book_hebrew_20260612_201412.pdf`.
 - A previous topic-specific PDF copy is `output/World_Cup_2026_Underdog_Stories_book_hebrew.pdf`.
+- A previous topic-specific PDF copy is `output/Algorithmic_Hair_How_AI_Agents_Are_Changing_Hairstyle_Identity_Beauty_St_book_english.pdf`.
 - The latest successful LaTeX log reports `Output written on main.pdf (15 pages, 233878 bytes)`.
 - Terminal execution screenshots are included at `output/imgs/terminal-output.png` and `output/imgs/agent_1.png` through `output/imgs/agent_5.png`, all referenced from the README.
 - The README uses generated visual assets and a more expressive reviewer-facing structure to explain the assignment, implementation, results, and tested topics.

@@ -79,8 +79,8 @@ Generated outputs:
 - Sports English book, 15 pages: `output/The_Algorithmic_Stadium_AI_Agents_Fan_Emotion_and_the_Future_of_Global_S_book_english.pdf`
 - Page-count manifest: `output/portfolio_page_counts.md`
 - Current topic-specific PDF: `output/The_Algorithmic_Closet_Can_AI_Agents_Make_Fast_Fashion_Slower_Smarter_an_book_hebrew.pdf`
-- Timestamped archive: `output/The_Algorithmic_Closet_Can_AI_Agents_Make_Fast_Fashion_Slower_Smarter_an_book_hebrew_20260612_201412.pdf`
 - Previous topic-specific PDF: `output/World_Cup_2026_Underdog_Stories_book_hebrew.pdf`
+- Previous topic-specific PDF: `output/Algorithmic_Hair_How_AI_Agents_Are_Changing_Hairstyle_Identity_Beauty_St_book_english.pdf`
 - Previous topic example: `output/AI_Agents_for_Early_Detection_of_Mental_Health_Crises_Using_Multimodal_Data.pdf`
 - Previous topic example: `output/AI_Agents_in_Healthcare.pdf`
 
@@ -204,14 +204,13 @@ uoh-ay26-book-generator/
 |-- output/
 |   |-- agentic_ai_production_2026.pdf
 |   |-- The_Algorithmic_Closet_..._book_hebrew.pdf
-|   |-- The_Algorithmic_Closet_..._book_hebrew_YYYYMMDD_HHMMSS.pdf
 |   |-- מטבחי_זיכרון_..._article_hebrew.pdf
 |   |-- Self_Healing_Software_Repositories_..._article_english.pdf
 |   |-- ארון_הבגדים_..._book_hebrew.pdf
 |   |-- The_Algorithmic_Stadium_..._book_english.pdf
+|   |-- Algorithmic_Hair_..._book_english.pdf
 |   |-- portfolio_page_counts.md
 |   |-- World_Cup_2026_Underdog_Stories_book_hebrew.pdf
-|   |-- World_Cup_2026_Underdog_Stories_book_hebrew_YYYYMMDD_HHMMSS.pdf
 |   |-- AI_Agents_for_Early_Detection_of_Mental_Health_Crises_Using_Multimodal_Data.pdf
 |   |-- AI_Agents_in_Healthcare.pdf
 |   `-- imgs/
@@ -335,7 +334,7 @@ Every submitted Python file is kept under 150 lines. That constraint shaped the 
 Create the environment:
 
 ```powershell
-cd C:\Users\Aisha\Desktop\AI\uoh-ay26-book-generator
+cd path\to\uoh-ay26-book-generator
 .\scripts\setup_env.ps1
 .\.venv-crewai\Scripts\Activate.ps1
 ```
