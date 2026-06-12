@@ -26,6 +26,8 @@ Aisha Abu Dahesh and Yousef Asadi
 
 The assignment asks for a 15-page article/book generated with CrewAI and LaTeX. This repository implements that as a complete software project, not as a one-time pasted answer.
 
+The generator is interactive: the user can choose the research topic, select the output language (`english` or `hebrew`), and decide whether the result should be an `article` or a `book`. Those choices change the final LaTeX structure, not only the title. Book mode includes a linked table of contents and chapter-style organization, while article mode keeps a tighter paper-like structure without a table of contents. Hebrew mode localizes the title page and uses right-to-left text/table handling; English mode includes a Hebrew BiDi demonstration paragraph.
+
 The workflow is:
 
 ```text
