@@ -4,14 +4,12 @@ def expansion_pages(options, missing_pages: int, start: int = 0) -> str:
     count = expansion_count(missing_pages)
     return expansion_pages_for_count(domain, count, start)
 
-
 def expansion_pages_for_count(domain, count: int, start: int = 0) -> str:
     return "\n\n".join(_render(domain, start + index) for index in range(count))
 
 
 def expansion_count(missing_pages: int) -> int:
     return 0 if missing_pages <= 0 else 8 if missing_pages == 1 else missing_pages * 2 + 4
-
 
 def _render(domain, index):
     title, angle, evidence, risk, action = _section(domain, index)

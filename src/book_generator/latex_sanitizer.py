@@ -1,6 +1,5 @@
 import re
 
-
 from book_generator.latex_table_sanitizer import shrink_wide_table_columns, wrap_hebrew_table_cells
 
 

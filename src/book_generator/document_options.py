@@ -133,14 +133,12 @@ def strip_generated_front_matter(article: str) -> str:
     article = re.sub(r"(?is)\\begin\{abstract\}.*?\\end\{abstract\}\s*", "", article)
     return re.sub(r"(?im)^\s*\\tableofcontents\s*", "", article).strip()
 
-
 HEBREW_BIDI_SECTION = r"""
 \section{Bilingual BiDi Demonstration}
 \begin{hebrew}\begin{flushright}
 עמוד זה מדגים פסקה עברית חיה בתוך מסמך שמוגדר בעיקר באנגלית. הטקסט מיושר לימין, נשבר לשורות בצורה טבעית, ונשמר כטקסט אמיתי שאפשר לבחור, להעתיק ולבדוק. כדי למנוע ערבוב כיווניות, הפסקה משתמשת בעברית רציפה ואינה משלבת מונחים לועזיים באמצע המשפט.
 \end{flushright}\end{hebrew}
 """
-
 
 ENGLISH_BIDI_SECTION = r"""
 \section{Bilingual BiDi Demonstration}
